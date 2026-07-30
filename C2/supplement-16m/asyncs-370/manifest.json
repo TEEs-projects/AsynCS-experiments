@@ -1,0 +1,62 @@
+{
+  "action_contract": {
+    "concurrency": 1,
+    "kind": "asyncs:1",
+    "memory_mb": 256,
+    "parameters_final": true
+  },
+  "action_prefix": "c2_asyncs_s50_16m_sf_20260726t020228z",
+  "artifact_contract_schema": "c2-asyncs-sleep50-package-supplemental-v1",
+  "artifact_contract_sha256": "3bf1feb646dda078aed1267166d5bc189cf669903fc742cf42cb0a55c48f562b",
+  "artifact_sizes_bytes": [
+    16777216
+  ],
+  "contract_mode": "supplemental-16m",
+  "crypto_profile": "bfibe-mcl-bls12381",
+  "fid": "c2-s50-16m-20260726T020228Z",
+  "fresh_groups_per_size": 40,
+  "kms_authority": {
+    "public_parameter_sha256": "12160523b237746e331b3c631117ea99b51c19d81db3fb41cf2bbf405a69ac36",
+    "schema_version": "c2-asyncs-kms-authority-v1",
+    "sealed_data_bytes": 592,
+    "sealed_data_sha256": "37c19518093e616b65ca3f5df66307732f5537bd412557916af25c8b346853f5",
+    "signed_enclave_bytes": 7115680,
+    "signed_enclave_sha256": "cb0393ac279a32205a31cff2b4f78607e20d7fb9ced9dc77eaa617d08f38242f"
+  },
+  "kms_bindings_sha256": "145ea602b1848518e8b2b49fa43b13e332e685ca02bb496298ac31d27d89fa1d",
+  "ordinary_submit_driver_role": "online_ciphertext_submit_only",
+  "package_rows": [
+    {
+      "action_default_params_sha256": "e4b9d5be51ce0c0985e3331677a2958dd4b0e689aa996e2077c68b2924704e82",
+      "action_zip_bytes": 16777372,
+      "action_zip_sha256": "f16899478fe6e2b238372e5942306b222cfd468a104f8b2100f78ce081c395d5",
+      "artifact_size_bytes": 16777216,
+      "c_func_bytes": 16777244,
+      "c_func_sha256": "dacbe8f2138dfd562bad08baf97049c458100cec22ddb8ce87ee33fd5e221b55",
+      "c_k_func_bytes": 259,
+      "c_k_func_sha256": "0403c0609783412da7aba22769248b16238d4a164a9f852bf065a0873211c2fd",
+      "crypto_profile": "bfibe-mcl-bls12381",
+      "fid": "c2-s50-16m-20260726T020228Z",
+      "key_ciphertext_format": "bfibe-mcl-bls12381-envelope-v1",
+      "label": "dacbe8f2138dfd562bad08baf97049c458100cec22ddb8ce87ee33fd5e221b55",
+      "raw_wasm_bytes": 16777216,
+      "raw_wasm_sha256": "b1dc941544c55bbfd4f0474ce4233da7f19d101354f9a5c4eb9d2e871eb994c4",
+      "schema_version": "c2-asyncs-action-package-v1"
+    }
+  ],
+  "provider_crypto_role_after_prepare": "crypto_prepare_process_exited_not_on_measured_path",
+  "public_parameter_sha256": "12160523b237746e331b3c631117ea99b51c19d81db3fb41cf2bbf405a69ac36",
+  "request_input": {
+    "bytes": 1024,
+    "manifest_sha256": "94475e511c05a377ded450a83785ff813d98cb5053ec229bf01fc657365ac1aa",
+    "sha256": "34b059c2ead4f813a03fde62d32a81cd42dc6c6a8dbf9325c00af66eff16e38d"
+  },
+  "schema_version": "c2-asyncs-prepared-package-grid-v1",
+  "total_prepared_requests": 240,
+  "warm_followups_per_fresh": 5,
+  "workload": {
+    "id": "asyncs-wasm-sleep-50ms",
+    "logic_hash": "rust-std-thread-sleep-50ms-v1",
+    "sleep_ms": 50
+  }
+}

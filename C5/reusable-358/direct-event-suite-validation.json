@@ -1,0 +1,17 @@
+{
+  "checks": {
+    "exact_two_workloads": true,
+    "gateway_code_observed_in_suite": true,
+    "gateway_result_zero": true,
+    "required_per_activation_complete": true
+  },
+  "gateway_code_occurrences": 2,
+  "policy": "direct occurrences only; no deduplication, zero-fill, residual, or cross-clock subtraction",
+  "profile": "reusable-concurrency",
+  "schema_version": "c5-reusable-direct-event-suite-validation-v1",
+  "status": "pass",
+  "workloads": [
+    "compression-derived-random256k-level6-v1",
+    "dynamic-html-derived-v1"
+  ]
+}

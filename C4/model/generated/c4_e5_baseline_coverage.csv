@@ -1,0 +1,6 @@
+series_id,display_name,evidence_type,coverage,bytes_main_figure_eligible,object_main_figure_eligible,note
+asyncs-minimal-core,AsynCS minimal core,source-derived,complete-bytes-and-objects,true,true,One persistent MSK; two BF-IBE capabilities and one canonical FID binding per warm placement.
+stored-bfibe-capabilities,Per-function stored capabilities,paper-model,complete-payload-model,true,true,"Same 96-byte BF-IBE capabilities and two-key obligation as AsynCS, but both capabilities are retained per function."
+wallet-paper-object-model,Wallet paper model,paper-model,objects-only-bytes-na,false,true,One provider private-key object per function and one copy per configured monitor; key bytes are N/A.
+cofunc-t1-paper-object-model,CoFunc paper model (T=1),paper-model,objects-only-bytes-na,false,true,One tenant-key object for T=1 and one copy per active CVM placement; key bytes are N/A.
+reusable-artifact-session-lower-bound,Reusable session-only lower bound,source-derived,partial-session-only,false,false,Artifact AEK/session state only; missing function-key manager makes complete key-related state N/A.

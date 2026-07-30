@@ -1,0 +1,9 @@
+name,value,unit,evidence_type,source_id
+asyncs_authority_msk_bytes,32,bytes,source-derived,asyncs-kms-msk
+bfibe_private_capability_bytes,96,bytes,source-derived,asyncs-bfibe-g2
+asyncs_capabilities_per_placement,2,objects,source-derived,asyncs-worker-capabilities
+canonical_fid_bytes,32,bytes,source-derived,asyncs-canonical-fid
+asyncs_bfibe_declared_storage_bytes_per_placement,649,bytes,source-derived,asyncs-worker-bfibe-storage
+asyncs_bfibe_linker_padding_bytes_per_placement,56,bytes,artifact-measured,asyncs-worker-elf-symbols
+reusable_aek_bytes,16,bytes,source-derived,reusable-session-aek
+reusable_session_binding_bytes,8,bytes,source-derived,reusable-session-binding

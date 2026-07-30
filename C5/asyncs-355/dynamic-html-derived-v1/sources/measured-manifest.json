@@ -1,0 +1,29 @@
+{
+  "action_fqen": "/guest/c5_asyncs_representative_warm_v1",
+  "action_identity_sha256": "caf8366ad4263db5edf76f58d728a6fba5e12e0f6820d327f5bbecaa34265108",
+  "action_revision": "0.0.4@1784759769207",
+  "asyncs_workload_contract_sha256": "3ec5232607debad75bad5c50054298d2c43fb14b694f9faa9f92528b4319a825",
+  "authority_fields_in_action_defaults": [
+    "FID",
+    "C_k_func",
+    "label",
+    "crypto_profile",
+    "key_ciphertext_format"
+  ],
+  "measured_request_json_bytes": 1024,
+  "measured_result_json_bytes": 4096,
+  "output_capacity_bytes": 16384,
+  "phase": "measured",
+  "private_verifier_count": 300,
+  "private_verifiers_sha256": "ed1be418c29368d011cd84c07c95dac9f2943961dc7e2fde5251436600bc1b73",
+  "profile": "asyncs",
+  "request_count": 300,
+  "requests_file": "requests.jsonl",
+  "requests_sha256": "2386c34186bb9f43b207374b1358acebae74089f4c82922b91615efcac630dc4",
+  "schema_version": "c5-asyncs-prepared-requests-v1",
+  "shared_contract_sha256": "e78fac55ef7c486824d5912c6c956fc70520dacb6a913ad6b135fd51e2afbd43",
+  "suite_id": "c5-representative-warm-v1",
+  "workload_artifact_sha256": "836ea3df370f0373319456aa13fdad1b6297ff4747839c5c685be615390bae8d",
+  "workload_id": "dynamic-html-derived-v1",
+  "workload_logic_hash": "c5-dynamic-html-portable-render-v1"
+}

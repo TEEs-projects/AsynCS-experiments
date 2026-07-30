@@ -1,0 +1,5 @@
+family	artifact_or_contract	location	status	note
+C1	accepted block contracts and deterministic sleep50 workload contract	C1/blocks and C1/children plus https://github.com/TEEs-projects/AsynCS/tree/main/workloads/backend_pressure_sleep50	available	public-safe contract and selected derivatives are retained; workload source/artifact is in the code repo
+C2	accepted core package contracts and 16 MiB public-prepared contract	C2/core and C2/supplement-16m plus https://github.com/TEEs-projects/AsynCS/tree/main/workloads/c2_sleep50_package_grid	available	public-prepared 16 MiB derivatives and package-grid artifacts are retained; protected ciphertext archives are excluded
+C3	accepted E3 v2 deterministic IO contract	C3 plus https://github.com/TEEs-projects/AsynCS/tree/main/workloads/c3_deterministic_io	available	current seven-size E3 v2 source is retained; workload source/artifact is in the code repo
+C5	profile-independent shared inputs and contract	C5/inputs	available	dynamic HTML, exact expected output, random 256 KiB input, event dictionary, phase map, and SHA manifest are materialized

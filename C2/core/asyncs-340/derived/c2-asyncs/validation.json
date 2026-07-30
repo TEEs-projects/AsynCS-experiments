@@ -1,0 +1,33 @@
+{
+  "acceptance_status": "not_reviewed",
+  "artifact_classification": "diagnostic_complete",
+  "artifacts": {
+    "attempts_sha256": "41310b0791893752c04bfc4d91437d695981c0b3737faddf1bb9cdfa87f1c959",
+    "phase_breakdown_sha256": "98c80eb8ffe2d112545cbe56d74ef59b016b329850a21e88867de99c5e27a9f1",
+    "summary_sha256": "083fccecbe42b2afc9b0217eb15f74d8f2094cbc995b90e210cb644891419637"
+  },
+  "checks": {
+    "acceptance_not_claimed": true,
+    "attempt_count_matches_contract": true,
+    "attempt_count_matches_summary": true,
+    "decrypt_complete": true,
+    "diagnostic_classification_only": true,
+    "figure_c2_diagnostic_manifest.tsv_nonempty": true,
+    "figure_c2_diagnostic_statistics.csv_nonempty": true,
+    "figure_c2_diagnostic_statistics.png_nonempty": true,
+    "figure_c2_diagnostic_statistics.svg_nonempty": true,
+    "figure_c2_diagnostic_timeline.csv_nonempty": true,
+    "figure_c2_diagnostic_timeline.png_nonempty": true,
+    "figure_c2_diagnostic_timeline.svg_nonempty": true,
+    "fresh_population_complete": true,
+    "materializer_gate_pass": true,
+    "phase_rows_equal_fresh": true,
+    "rid_complete": true,
+    "store_complete": true,
+    "terminal_complete": true,
+    "warm_population_complete": true,
+    "workload_complete": true
+  },
+  "schema_version": "c2-asyncs-artifact-validation-v1",
+  "status": "pass"
+}

@@ -1,0 +1,20 @@
+utc	phase	state	detail
+2026-07-15T00:41:08Z	verify_asyncs_managed_prewarm_pool	start	command=verify_asyncs_managed_prewarm_pool
+2026-07-15T00:41:10Z	verify_asyncs_managed_prewarm_pool	end	exit_code=0
+2026-07-15T01:00:36Z	verify_asyncs_premeasurement_correctness	start	command=verify_asyncs_backend_pressure_premeasurement c1_asyncs_c1a0_child1_sleep50_w80_260_ccompletion-window
+2026-07-15T01:00:45Z	verify_asyncs_premeasurement_correctness	end	exit_code=0
+2026-07-15T01:01:50Z	collect_filtered_markers	start	command=collect_filtered_markers ANONYMOUS_WORKSPACE/asyncs-sgx-collection-20260615/experiments/collections/260_asyncs-c1-a0-sleep50-w80-child1/data/asyncs/backend-pressure-c1-a0-child1-w80-cap100000-sleep50-5x8
+2026-07-15T01:02:18Z	collect_filtered_markers	end	exit_code=0
+2026-07-15T01:02:18Z	materialize_marker_tsvs	start	command=materialize_marker_tsvs 80 ANONYMOUS_WORKSPACE/asyncs-sgx-collection-20260615/experiments/collections/260_asyncs-c1-a0-sleep50-w80-child1/data/asyncs/backend-pressure-c1-a0-child1-w80-cap100000-sleep50-5x8
+2026-07-15T01:02:27Z	materialize_marker_tsvs	end	exit_code=0
+2026-07-15T01:02:27Z	require_marker_discovery	start	command=require_completion_window_marker_discovery_complete ANONYMOUS_WORKSPACE/asyncs-sgx-collection-20260615/experiments/collections/260_asyncs-c1-a0-sleep50-w80-child1/data/asyncs/backend-pressure-c1-a0-child1-w80-cap100000-sleep50-5x8 100000
+2026-07-15T01:02:27Z	require_marker_discovery	end	exit_code=0
+2026-07-15T01:02:27Z	verify_asyncs_action_execution_capacity	start	command=verify_asyncs_action_execution_capacity ANONYMOUS_WORKSPACE/asyncs-sgx-collection-20260615/experiments/collections/260_asyncs-c1-a0-sleep50-w80-child1/data/asyncs/backend-pressure-c1-a0-child1-w80-cap100000-sleep50-5x8
+2026-07-15T01:02:31Z	verify_asyncs_action_execution_capacity	end	exit_code=0
+2026-07-15T01:02:31Z	materialize_asyncs_compatible	start	command=materialize_asyncs_compatible_point ANONYMOUS_WORKSPACE/asyncs-sgx-collection-20260615/experiments/collections/260_asyncs-c1-a0-sleep50-w80-child1/data/asyncs/backend-pressure-c1-a0-child1-w80-cap100000-sleep50-5x8
+2026-07-15T01:02:35Z	materialize_asyncs_compatible	end	exit_code=0
+2026-07-15T01:02:35Z	capture_container_lifecycle	start	command=capture_container_lifecycle after completion-window 260_asyncs-c1-a0-sleep50-w80-child1-completion-window c1_asyncs_c1a0_child1_sleep50_w80_260_ccompletion-window
+2026-07-15T01:02:36Z	capture_container_lifecycle	end	exit_code=0
+2026-07-15T01:02:36Z	remote_summary	start	command=python3 ANONYMOUS_WORKSPACE/asyncs-sgx-collection-20260615/experiments/current-scripts/C1/internal-pressure/build_backend_pressure_summary.py --round-root ANONYMOUS_WORKSPACE/asyncs-sgx-collection-20260615/experiments/collections/260_asyncs-c1-a0-sleep50-w80-child1 --output ANONYMOUS_WORKSPACE/asyncs-sgx-collection-20260615/experiments/collections/260_asyncs-c1-a0-sleep50-w80-child1/figures/backend-pressure
+2026-07-15T01:02:41Z	remote_summary	end	exit_code=0
+2026-07-15T01:02:41Z	final_status	end	exit_code=0

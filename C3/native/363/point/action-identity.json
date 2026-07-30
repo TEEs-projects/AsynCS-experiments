@@ -1,0 +1,20 @@
+{
+  "action_concurrency": 1,
+  "action_fqen": "/guest/e3_v2_native_ascii_identity_v1",
+  "action_identity_sha256": "28849031fd3383412c272724fcfc4876f991967dd313aa1d3781f3515ddd0f77",
+  "action_kind": "nodejs:20",
+  "action_memory_mb": 256,
+  "action_revision": "0.0.1@1784919761864",
+  "action_revision_source": "openwhisk_public_version_updated",
+  "action_source_sha256": "523e98fe8f8b5214c238089277c205be7961564b82ef77f59fe7b7d1ff471d5b",
+  "action_updated": 1784919761864,
+  "action_version": "0.0.1",
+  "deployment_disposition": "created",
+  "openwhisk_doc_revision_exposed": false,
+  "profile": "native",
+  "profile_manifest_sha256": "05ed067d89374a634e577bc63c3440b1fa4a0a205af3cf8a663b95ac0544d37e",
+  "schema_version": "e3-v2-native-action-identity-v1",
+  "workload_artifact_sha256": "523e98fe8f8b5214c238089277c205be7961564b82ef77f59fe7b7d1ff471d5b",
+  "workload_id": "e3-v2-ascii-identity-v1",
+  "workload_logic_hash": "nodejs-independent-buffer-allocation-complete-copy-v1"
+}

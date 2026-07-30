@@ -1,0 +1,8 @@
+check	result	file_count	note
+private_git_boundary	pass	37	Raw private bytes remain under the protected canonical private/ archive and are excluded by <protected-source>private_archive_manifest	pass	37	Every private file has relative path, bytes and SHA-256 in the public manifest.
+remote_local_private_sha	pass	37	Remote and local private manifests match and every protected local row resolves.
+secret_value_markers	pass	0	No private-key value, protected-envelope value, ciphertext payload or credential value appears in public files.
+credentials	pass	0	No Basic credential, password, token value or authorization header appears in public files.
+bounded_recovery_scope	pass	0	Public logs are activation-ID-filtered controller, Scheduler, Gateway and worker-store evidence only.
+direct_event_occurrence_policy	pass	0	Direct occurrences retain source clocks and OW300 duplicates without zero-fill, residual inference or deduplication.
+oversized_public_text_rows	pass	0	Maximum public non-image line is 1010 bytes.

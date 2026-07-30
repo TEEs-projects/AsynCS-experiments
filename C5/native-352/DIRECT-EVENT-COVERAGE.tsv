@@ -1,0 +1,25 @@
+workload_id	segment	event_code	expected_request_count	recovered_request_count	missing_request_count	coverage_fraction	source_occurrence_count	canonical_distinct_occurrence_count	duplicate_request_count	coverage_status	selection_rule
+dynamic-html-derived-v1	correctness_probe	OW120	1	1	0	1.000000	1	1	0	complete	collapse exact mirrored markers; preserve distinct timestamps; earliest direct occurrence is primary
+dynamic-html-derived-v1	correctness_probe	OW150	1	1	0	1.000000	1	1	0	complete	collapse exact mirrored markers; preserve distinct timestamps; earliest direct occurrence is primary
+dynamic-html-derived-v1	correctness_probe	OW260	1	1	0	1.000000	1	1	0	complete	collapse exact mirrored markers; preserve distinct timestamps; earliest direct occurrence is primary
+dynamic-html-derived-v1	correctness_probe	OW300	1	1	0	1.000000	1	1	0	complete	collapse exact mirrored markers; preserve distinct timestamps; earliest direct occurrence is primary
+dynamic-html-derived-v1	correctness_probe	OW310	1	1	0	1.000000	2	1	0	complete	collapse exact mirrored markers; preserve distinct timestamps; earliest direct occurrence is primary
+dynamic-html-derived-v1	correctness_probe	OW800	1	1	0	1.000000	2	1	0	complete	collapse exact mirrored markers; preserve distinct timestamps; earliest direct occurrence is primary
+dynamic-html-derived-v1	measured	OW120	300	300	0	1.000000	300	300	0	complete	collapse exact mirrored markers; preserve distinct timestamps; earliest direct occurrence is primary
+dynamic-html-derived-v1	measured	OW150	300	300	0	1.000000	300	300	0	complete	collapse exact mirrored markers; preserve distinct timestamps; earliest direct occurrence is primary
+dynamic-html-derived-v1	measured	OW260	300	300	0	1.000000	300	300	0	complete	collapse exact mirrored markers; preserve distinct timestamps; earliest direct occurrence is primary
+dynamic-html-derived-v1	measured	OW300	300	300	0	1.000000	572	572	272	complete	collapse exact mirrored markers; preserve distinct timestamps; earliest direct occurrence is primary
+dynamic-html-derived-v1	measured	OW310	300	300	0	1.000000	600	300	0	complete	collapse exact mirrored markers; preserve distinct timestamps; earliest direct occurrence is primary
+dynamic-html-derived-v1	measured	OW800	300	300	0	1.000000	600	300	0	complete	collapse exact mirrored markers; preserve distinct timestamps; earliest direct occurrence is primary
+compression-derived-random256k-level6-v1	correctness_probe	OW120	1	1	0	1.000000	1	1	0	complete	collapse exact mirrored markers; preserve distinct timestamps; earliest direct occurrence is primary
+compression-derived-random256k-level6-v1	correctness_probe	OW150	1	1	0	1.000000	1	1	0	complete	collapse exact mirrored markers; preserve distinct timestamps; earliest direct occurrence is primary
+compression-derived-random256k-level6-v1	correctness_probe	OW260	1	1	0	1.000000	1	1	0	complete	collapse exact mirrored markers; preserve distinct timestamps; earliest direct occurrence is primary
+compression-derived-random256k-level6-v1	correctness_probe	OW300	1	1	0	1.000000	1	1	0	complete	collapse exact mirrored markers; preserve distinct timestamps; earliest direct occurrence is primary
+compression-derived-random256k-level6-v1	correctness_probe	OW310	1	1	0	1.000000	2	1	0	complete	collapse exact mirrored markers; preserve distinct timestamps; earliest direct occurrence is primary
+compression-derived-random256k-level6-v1	correctness_probe	OW800	1	1	0	1.000000	2	1	0	complete	collapse exact mirrored markers; preserve distinct timestamps; earliest direct occurrence is primary
+compression-derived-random256k-level6-v1	measured	OW120	300	300	0	1.000000	300	300	0	complete	collapse exact mirrored markers; preserve distinct timestamps; earliest direct occurrence is primary
+compression-derived-random256k-level6-v1	measured	OW150	300	300	0	1.000000	300	300	0	complete	collapse exact mirrored markers; preserve distinct timestamps; earliest direct occurrence is primary
+compression-derived-random256k-level6-v1	measured	OW260	300	300	0	1.000000	300	300	0	complete	collapse exact mirrored markers; preserve distinct timestamps; earliest direct occurrence is primary
+compression-derived-random256k-level6-v1	measured	OW300	300	300	0	1.000000	590	590	290	complete	collapse exact mirrored markers; preserve distinct timestamps; earliest direct occurrence is primary
+compression-derived-random256k-level6-v1	measured	OW310	300	300	0	1.000000	600	300	0	complete	collapse exact mirrored markers; preserve distinct timestamps; earliest direct occurrence is primary
+compression-derived-random256k-level6-v1	measured	OW800	300	300	0	1.000000	600	300	0	complete	collapse exact mirrored markers; preserve distinct timestamps; earliest direct occurrence is primary

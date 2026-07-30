@@ -1,0 +1,9 @@
+{
+  "completed_with_store_evidence": 960,
+  "failure_count": 0,
+  "invocation_mode": "ordinary_blocking_store_enabled_w1",
+  "measured_request_count": 960,
+  "phase": "measurement_complete",
+  "queue_endpoint_prediction_retry_count": 1,
+  "schema_version": "c2-asyncs-placement-state-v1"
+}

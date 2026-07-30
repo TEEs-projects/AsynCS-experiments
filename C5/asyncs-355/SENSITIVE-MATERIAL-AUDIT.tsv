@@ -1,0 +1,8 @@
+check	status	file_count	detail
+private_files_absent	PASS	0	no request JSONL, private verifier, full activation result, params, action ZIP, or sealed blob
+private_key_material_absent	PASS	0	no skU or PEM/private-key material
+credential_values_absent	PASS	0	no auth/password credential value
+private_payload_values_absent	PASS	0	no C_out/C_k_func/action_params payload value
+sealed_blob_content_absent	PASS	0	sealed authority represented by SHA-256 only
+filtered_logs_bounded	PASS	0	logs are activation-ID or transaction-ID bounded OpenWhisk/DB markers only
+text_rows_bounded	PASS	0	maximum public text row is 1098 bytes

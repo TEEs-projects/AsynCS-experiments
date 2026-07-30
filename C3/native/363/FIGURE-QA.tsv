@@ -1,0 +1,2 @@
+scope	timeline_png	statistics_png	nonempty	owner_visual_review	artifact_classification	acceptance_status
+round363	figures/e3-v2-native-diagnostic/e3_v2_diagnostic_timeline.png	figures/e3-v2-native-diagnostic/e3_v2_diagnostic_statistics.png	PASS	PASS	accepted_observation_diagnostic_qa_only	accepted_formal_c3_e3_v2_native

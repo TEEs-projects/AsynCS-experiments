@@ -1,0 +1,60 @@
+{
+  "activation_get_404": 1842,
+  "actual_submitted": 1842,
+  "classification_recommendation": "accepted_c1_topology_scale_3x4_observation_candidate",
+  "completed": 1842,
+  "completion_window": 20,
+  "configured_execution_slots": 12,
+  "container_join_samples": 1842,
+  "controller_completion_window_end_elapsed_s": 28.920748166,
+  "controller_completion_window_q_r": 77.6,
+  "controller_completion_window_start_elapsed_s": 18.920748166,
+  "controller_completion_window_terminal_completions": 776,
+  "correctness_verifiers": 1,
+  "covered_stack_samples": 1842,
+  "event_counts": {
+    "BP010": 1842,
+    "OW120": 1842,
+    "OW150": 1842,
+    "OW260": 1842,
+    "OW300": 1842,
+    "OW310": 1842,
+    "OW800": 1842,
+    "RG270": 1842,
+    "RG280": 1842
+  },
+  "initial_target_bindings": 12,
+  "max_action_bound_overlap_by_worker": {
+    "host_131215316a": 4,
+    "host_8f92d23d2a": 4,
+    "host_20da272088": 4
+  },
+  "max_concurrent_request_intervals_by_worker": {
+    "host_131215316a": 4,
+    "host_8f92d23d2a": 4,
+    "host_20da272088": 4
+  },
+  "measured_distinct_containers": 12,
+  "measured_distinct_containers_by_worker": {
+    "host_131215316a": 4,
+    "host_8f92d23d2a": 4,
+    "host_20da272088": 4
+  },
+  "measurement_gateway_code": 12,
+  "missing_container_join_samples": 0,
+  "missing_workload_duration_samples": 157,
+  "paper_evidence": false,
+  "planned_cap": 100000,
+  "premeasurement_actual_ready": 12,
+  "premeasurement_actual_ready_by_worker": {
+    "host_131215316a": 4,
+    "host_8f92d23d2a": 4,
+    "host_20da272088": 4
+  },
+  "replacement_setup_registrations_observed": 13,
+  "stable_qps_definition": "first_raw_plateau_stop_10s_(s_r,e_r]",
+  "status": "c1_r0_sleep50_candidate_complete",
+  "store_skips": 1842,
+  "workers": 3,
+  "workload_duration_samples": 1685
+}

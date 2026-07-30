@@ -1,0 +1,16 @@
+key	value
+round_basename	352_native-c5-function-warm-low-contention-direct-events
+profile	native
+target_top_ref	46bdc46eac8f9e87059fe7c045e52c25865e7356
+measured_semantics_ref	98a13615fe0e457a30ef1d1541029c9c966b4d77
+remote_base_head	74d2038865e4398b5052fd3acd72662e8d24d6ee
+openwhisk_ref	ffcb6981ccfd029b17904091368f10bdec52c857
+matrix_ref	682f365d
+sync_mode	scoped_target_blob_restore
+action	/guest/c5_native_function_warm_low_contention_352_direct_events
+workloads	dynamic-html-derived-v1 compression-derived-random256k-level6-v1
+probe_count_per_workload	1
+measured_count_per_workload	300
+measured_window_size	3
+request_json_bytes	1024
+result_json_bytes	4096

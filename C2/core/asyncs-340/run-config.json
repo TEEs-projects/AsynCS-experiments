@@ -1,0 +1,24 @@
+{
+  "collection": {
+    "family": "provisioning-size",
+    "id": "C2",
+    "name": "encrypted_package_fresh_placement"
+  },
+  "config_file": "experiments/configs/public-sgx-profile-3worker.env",
+  "generated_at_utc": "2026-07-20T02:52:34Z",
+  "notes": [
+    "Fresh first use and warm follow-up are distinct lifecycle rows."
+  ],
+  "parameters": {
+    "contract_mode": "formal",
+    "entry_mode": "ordinary_blocking_store_enabled_w1",
+    "ordinary_submit_driver_role": "online_ciphertext_submit_only",
+    "package_authority_location": "openwhisk_action_default_parameters_final",
+    "provider_crypto_role_after_prepare": "crypto_prepare_process_exited_not_on_measured_path",
+    "public_prepared_dir": "ANONYMOUS_WORKSPACE/_tmp/c2-r340/public"
+  },
+  "profile": "asyncs",
+  "runner": "experiments/bin/run-asyncs-provisioning-sweep-pilot.sh",
+  "schema_version": "asyncs-run-config-v1",
+  "title": "C2 AsynCS encrypted package fresh placement"
+}

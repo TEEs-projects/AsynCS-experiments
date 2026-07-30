@@ -1,0 +1,4 @@
+source_role	source_path	bytes	sha256	matching_direct_event_rows
+controller	<collection-root>/collections/365_c3-reusable-concurrency-e3-v2-seven-size-single-batch-same-authority-replacement/recovery/openwhisk-direct-events/controller.filtered.log	667800	ecb2fe7d019da2292466e47117a63c18d5886430c59df0e19b5c0e3dfaf4e57e	1400
+scheduler	<collection-root>/collections/365_c3-reusable-concurrency-e3-v2-seven-size-single-batch-same-authority-replacement/recovery/openwhisk-direct-events/scheduler.filtered.log	2044348	90eb1613e93c2b05af96ec313e4d97a5d88d3ac3e9775fddf053b60d505253e3	2098
+invoker	<collection-root>/collections/365_c3-reusable-concurrency-e3-v2-seven-size-single-batch-same-authority-replacement/recovery/openwhisk-direct-events/invokers.filtered.log	1531287	708e829d6404251516ac165cb2d8a16ded302d2a3314a4185e43a04cd96b0c53	1400

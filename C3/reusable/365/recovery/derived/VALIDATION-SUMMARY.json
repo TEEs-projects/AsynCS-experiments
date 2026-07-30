@@ -1,0 +1,27 @@
+{
+  "attempted_count": 700,
+  "checks": {
+    "action_cleanup_200_to_404": true,
+    "all_full_output_verified": true,
+    "all_store_acknowledged": true,
+    "all_terminal_success": true,
+    "attempt_count_matches_manifest": true,
+    "completed_count_matches_manifest": true,
+    "each_size_submitted_count_matches_manifest": true,
+    "event_coverage_selected_denominators_complete": true,
+    "gateway_code_suite_observed": true,
+    "gateway_input_count_matches_manifest": true,
+    "gateway_result_zero": true,
+    "gateway_status_failures_zero": true,
+    "warm_selected_rows_present": true
+  },
+  "classification_proposal": "owner_candidate_formal_e3_v2_complete",
+  "event_occurrence_count": 27301,
+  "failed_count": 0,
+  "inference_policy": "direct_only_no_zero_fill_no_residual_no_cross_clock",
+  "not_submitted_count": 0,
+  "schema_version": "e3-v2-reusable-validation-v1",
+  "status": "pass_owner_candidate_pending_main_review",
+  "terminal_success_count": 700,
+  "warm_selected_count": 699
+}

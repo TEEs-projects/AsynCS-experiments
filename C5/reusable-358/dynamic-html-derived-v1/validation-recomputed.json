@@ -1,0 +1,35 @@
+{
+  "acceptance_status": "not_reviewed",
+  "artifact_classification": "diagnostic_candidate",
+  "artifacts": {
+    "attempts_sha256": "0b7badfa79e044aa30cbd6b2d05aab2f5197aeee1696339ff3b1a3aa9e0e177e",
+    "summary_sha256": "175f4879a4cfc550d99dac51cd7985a8049310747b9a4f567cb13464d8648e0c"
+  },
+  "checks": {
+    "acceptance_not_claimed": true,
+    "blocking_mean_present": true,
+    "blocking_student_t_ci_valid": true,
+    "figures_not_required_for_public_export": true,
+    "full_flow_mean_present": true,
+    "full_flow_student_t_ci_valid": true,
+    "has_valid_warm_samples": true,
+    "latency_ci_method_is_student_t": true,
+    "latency_primary_statistic_is_mean_student_t_ci": true,
+    "materializer_gate_pass": true,
+    "no_sustained_queue_buildup": true,
+    "output_verification_complete": true,
+    "p0_terminal_success_complete": true,
+    "request_size_fixed": true,
+    "result_size_fixed": true,
+    "store_ack_complete": true,
+    "submitted_matches_contract": true,
+    "wait_mean_present": true,
+    "wait_student_t_ci_valid": true,
+    "warm_target_is_advisory": true,
+    "workload_mean_present": true,
+    "workload_student_t_ci_valid": true
+  },
+  "schema_version": "c5-artifact-validation-v1",
+  "status": "pass",
+  "warm_sample_target_status": "met"
+}

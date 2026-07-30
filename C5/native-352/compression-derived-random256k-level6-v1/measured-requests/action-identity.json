@@ -1,0 +1,15 @@
+{
+  "action_concurrency": 1,
+  "action_fqen": "/guest/c5_native_function_warm_low_contention_352_direct_events",
+  "action_identity_sha256": "7c95d7eb747a585de4ba37797448eeea20f9011253d96f6672edd9740afe5c34",
+  "action_kind": "nodejs:20",
+  "action_memory_mb": 256,
+  "action_revision": "0.0.1@1784741948012",
+  "action_source_sha256": "9c729a6ad70fddec7f7c7073c108cfcf116373e5ff1d2560d99c92c001dab93f",
+  "deployment_disposition": "created",
+  "profile": "native",
+  "schema_version": "c5-native-action-identity-v1",
+  "suite_id": "c5-representative-warm-v1",
+  "workload_artifact_sha256": "e37c0920ad877a89cf2f9f769aa05e9e08a4e9f802f6d509a45a4db56edbeba8",
+  "workload_contract_sha256": "e78fac55ef7c486824d5912c6c956fc70520dacb6a913ad6b135fd51e2afbd43"
+}

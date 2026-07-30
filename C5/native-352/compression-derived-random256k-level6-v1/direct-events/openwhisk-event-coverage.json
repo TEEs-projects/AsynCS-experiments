@@ -1,0 +1,26 @@
+{
+  "canonical_distinct_occurrence_count": 2090,
+  "event_codes": [
+    "OW120",
+    "OW150",
+    "OW260",
+    "OW300",
+    "OW310",
+    "OW800"
+  ],
+  "experiment_id": "C5",
+  "malformed_relevant_marker_lines": 0,
+  "missing_event_count": 0,
+  "prohibited_derivations": [
+    "activation_waitTime",
+    "total_latency",
+    "residual_arithmetic"
+  ],
+  "request_count": 300,
+  "schema_version": "native-openwhisk-event-coverage-v1",
+  "selection_rule": "collapse exact mirrored markers; preserve distinct timestamps; earliest direct occurrence is primary",
+  "source_file_count": 8,
+  "source_occurrence_count": 2690,
+  "status": "complete",
+  "unindexed_marker_lines": 0
+}

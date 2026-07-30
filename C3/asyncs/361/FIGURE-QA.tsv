@@ -1,0 +1,2 @@
+scope	timeline_png	statistics_png	nonempty	owner_visual_review	artifact_classification	acceptance_status
+round361	figures/e3-v2-diagnostic/e3_v2_diagnostic_timeline.png	figures/e3-v2-diagnostic/e3_v2_diagnostic_statistics.png	PASS	PASS	diagnostic_qa	not_reviewed

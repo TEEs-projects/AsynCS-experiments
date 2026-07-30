@@ -1,0 +1,20 @@
+{
+  "acceptance_status": "not_reviewed",
+  "analysis_selected_count": 699,
+  "attempt_count": 700,
+  "classification": "complete_valid_candidate",
+  "failures": [],
+  "figure_artifact_count": 6,
+  "openwhisk_required_codes": [
+    "OW120",
+    "OW150",
+    "OW260",
+    "OW300",
+    "OW310",
+    "OW800"
+  ],
+  "schema_version": "e3-v2-asyncs-validation-v1",
+  "size_count": 7,
+  "status": "pass",
+  "warm_eligible_count": 699
+}

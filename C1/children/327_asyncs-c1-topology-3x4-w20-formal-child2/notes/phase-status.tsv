@@ -1,0 +1,20 @@
+utc	phase	state	detail
+2026-07-18T20:34:42Z	verify_asyncs_managed_prewarm_pool	start	command=verify_asyncs_managed_prewarm_pool
+2026-07-18T20:34:42Z	verify_asyncs_managed_prewarm_pool	end	exit_code=0
+2026-07-18T20:46:11Z	verify_asyncs_premeasurement_correctness	start	command=verify_asyncs_backend_pressure_premeasurement c1_asyncs_supplement_3x4_formal_child2_w20_327_ccompletion-window
+2026-07-18T20:46:19Z	verify_asyncs_premeasurement_correctness	end	exit_code=0
+2026-07-18T20:47:04Z	collect_filtered_markers	start	command=collect_filtered_markers ANONYMOUS_WORKSPACE/c1-asyncs-3x4-exec-964253a/experiments/collections/327_asyncs-c1-topology-3x4-w20-formal-child2/data/asyncs/backend-pressure-c1-a0-3x4-child2-w20-cap100000-sleep50
+2026-07-18T20:47:09Z	collect_filtered_markers	end	exit_code=0
+2026-07-18T20:47:09Z	materialize_marker_tsvs	start	command=materialize_marker_tsvs 20 ANONYMOUS_WORKSPACE/c1-asyncs-3x4-exec-964253a/experiments/collections/327_asyncs-c1-topology-3x4-w20-formal-child2/data/asyncs/backend-pressure-c1-a0-3x4-child2-w20-cap100000-sleep50
+2026-07-18T20:47:10Z	materialize_marker_tsvs	end	exit_code=0
+2026-07-18T20:47:10Z	require_marker_discovery	start	command=require_completion_window_marker_discovery_complete ANONYMOUS_WORKSPACE/c1-asyncs-3x4-exec-964253a/experiments/collections/327_asyncs-c1-topology-3x4-w20-formal-child2/data/asyncs/backend-pressure-c1-a0-3x4-child2-w20-cap100000-sleep50 100000
+2026-07-18T20:47:11Z	require_marker_discovery	end	exit_code=0
+2026-07-18T20:47:11Z	verify_asyncs_action_execution_capacity	start	command=verify_asyncs_action_execution_capacity ANONYMOUS_WORKSPACE/c1-asyncs-3x4-exec-964253a/experiments/collections/327_asyncs-c1-topology-3x4-w20-formal-child2/data/asyncs/backend-pressure-c1-a0-3x4-child2-w20-cap100000-sleep50
+2026-07-18T20:47:11Z	verify_asyncs_action_execution_capacity	end	exit_code=0
+2026-07-18T20:47:11Z	materialize_asyncs_compatible	start	command=materialize_asyncs_compatible_point ANONYMOUS_WORKSPACE/c1-asyncs-3x4-exec-964253a/experiments/collections/327_asyncs-c1-topology-3x4-w20-formal-child2/data/asyncs/backend-pressure-c1-a0-3x4-child2-w20-cap100000-sleep50
+2026-07-18T20:47:12Z	materialize_asyncs_compatible	end	exit_code=0
+2026-07-18T20:47:12Z	capture_container_lifecycle	start	command=capture_container_lifecycle after completion-window 327_asyncs-c1-topology-3x4-w20-formal-child2-completion-window c1_asyncs_supplement_3x4_formal_child2_w20_327_ccompletion-window
+2026-07-18T20:47:13Z	capture_container_lifecycle	end	exit_code=0
+2026-07-18T20:47:13Z	remote_summary	start	command=python3 ANONYMOUS_WORKSPACE/c1-asyncs-3x4-exec-964253a/experiments/current-scripts/C1/internal-pressure/build_backend_pressure_summary.py --round-root ANONYMOUS_WORKSPACE/c1-asyncs-3x4-exec-964253a/experiments/collections/327_asyncs-c1-topology-3x4-w20-formal-child2 --output ANONYMOUS_WORKSPACE/c1-asyncs-3x4-exec-964253a/experiments/collections/327_asyncs-c1-topology-3x4-w20-formal-child2/figures/backend-pressure
+2026-07-18T20:47:13Z	remote_summary	end	exit_code=0
+2026-07-18T20:47:13Z	final_status	end	exit_code=0

@@ -1,0 +1,9 @@
+schema_version	source_path	bytes	sha256	c1_marker_lines	relevant_occurrences	unindexed_marker_lines	malformed_relevant_marker_lines
+native-openwhisk-event-source-v1	<structured-source>	265200	58c2d3dd44dc4f3c458a565187235a7e44b85a631d96c098094e020103eb7796	600	600	0	0
+native-openwhisk-event-source-v1	<structured-source>	437520	11e364b3ed0dd88987ff6c6d98586be496520df90b81eae63f731c9517adba1a	890	890	0	0
+native-openwhisk-event-source-v1	<structured-source>	220324	4ffb77b579cc1720672ff61b059b51b7d679ec0e362ac6f9d0bdbb08e4d8f256	295	118	0	0
+native-openwhisk-event-source-v1	<structured-source>	133282	c96aeddb6ad9bd21c0d8d27b59837167ed3f17d84c90857e8b6cd486a11dd2f1	295	118	0	0
+native-openwhisk-event-source-v1	<structured-source>	901086	9a55dfe5e34a83bf4c4df867b6d13c0840bd986bfa12a3354ad5fa5c5f2ae852	1205	482	0	0
+native-openwhisk-event-source-v1	<structured-source>	545630	c7c2a9d0202ec83c7f35a72422d54e60174756f09089e859a6d7057d6898d3d7	1205	482	0	0
+native-openwhisk-event-source-v1	<structured-source>	0	e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855	0	0	0	0
+native-openwhisk-event-source-v1	<structured-source>	0	e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855	0	0	0	0

@@ -1,0 +1,118 @@
+{
+  "acceptance_status": "not_reviewed",
+  "attempt_count": 107,
+  "completion_policy": "user_closed",
+  "configured_global_group_end": 40,
+  "fresh_count": 17,
+  "logical_request_count": 102,
+  "observed_attempt_count": 108,
+  "plan_sha256": "e3fd92b9138e00db5e777fa0c6781f1a7e0042fbf11a7ac4c3ca47e19b7d0067",
+  "profile": "reusable-concurrency",
+  "schema_version": "c2-reusable-16m-group-aggregate-validation-v2",
+  "selected_global_group_end": 17,
+  "selected_group_sources": [
+    {
+      "collection_root": "374_c2-reusable-concurrency-16m-child-g001-g004",
+      "global_group": 1,
+      "round_id": 374
+    },
+    {
+      "collection_root": "374_c2-reusable-concurrency-16m-child-g001-g004",
+      "global_group": 2,
+      "round_id": 374
+    },
+    {
+      "collection_root": "375_c2-reusable-concurrency-16m-child-g003-g003",
+      "global_group": 3,
+      "round_id": 375
+    },
+    {
+      "collection_root": "376_c2-reusable-concurrency-16m-child-g004-g005",
+      "global_group": 4,
+      "round_id": 376
+    },
+    {
+      "collection_root": "376_c2-reusable-concurrency-16m-child-g004-g005",
+      "global_group": 5,
+      "round_id": 376
+    },
+    {
+      "collection_root": "377_c2-reusable-concurrency-16m-child-g006-g007",
+      "global_group": 6,
+      "round_id": 377
+    },
+    {
+      "collection_root": "377_c2-reusable-concurrency-16m-child-g006-g007",
+      "global_group": 7,
+      "round_id": 377
+    },
+    {
+      "collection_root": "378_c2-reusable-concurrency-16m-child-g008-g009",
+      "global_group": 8,
+      "round_id": 378
+    },
+    {
+      "collection_root": "378_c2-reusable-concurrency-16m-child-g008-g009",
+      "global_group": 9,
+      "round_id": 378
+    },
+    {
+      "collection_root": "379_c2-reusable-concurrency-16m-child-g010-g011",
+      "global_group": 10,
+      "round_id": 379
+    },
+    {
+      "collection_root": "379_c2-reusable-concurrency-16m-child-g010-g011",
+      "global_group": 11,
+      "round_id": 379
+    },
+    {
+      "collection_root": "380_c2-reusable-concurrency-16m-child-g012-g013",
+      "global_group": 12,
+      "round_id": 380
+    },
+    {
+      "collection_root": "380_c2-reusable-concurrency-16m-child-g012-g013",
+      "global_group": 13,
+      "round_id": 380
+    },
+    {
+      "collection_root": "381_c2-reusable-concurrency-16m-child-g014-g015",
+      "global_group": 14,
+      "round_id": 381
+    },
+    {
+      "collection_root": "381_c2-reusable-concurrency-16m-child-g014-g015",
+      "global_group": 15,
+      "round_id": 381
+    },
+    {
+      "collection_root": "382_c2-reusable-concurrency-16m-child-g016-g017",
+      "global_group": 16,
+      "round_id": 382
+    },
+    {
+      "collection_root": "382_c2-reusable-concurrency-16m-child-g016-g017",
+      "global_group": 17,
+      "round_id": 382
+    }
+  ],
+  "selected_rounds": [
+    374,
+    375,
+    376,
+    377,
+    378,
+    379,
+    380,
+    381,
+    382
+  ],
+  "status": "pass",
+  "unscheduled_global_groups": {
+    "end": 40,
+    "reason": "user_closed_collection_after_sufficient_samples",
+    "start": 18
+  },
+  "warm_count": 85
+}

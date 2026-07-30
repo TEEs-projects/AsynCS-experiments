@@ -1,0 +1,8 @@
+{
+  "action_count": 160,
+  "active_action_count": 1,
+  "crypto_provider_process": "source_session_exited_before_measurement",
+  "phase": "revision_rotation_measurement_complete_pending_cleanup",
+  "profile": "reusable-concurrency",
+  "schema_version": "c2-reusable-placement-state-v1"
+}

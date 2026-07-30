@@ -1,0 +1,77 @@
+{
+  "checks": {
+    "each_workload_has_low_contention_selected_warm_sample": true,
+    "materialized_binding_worker_mapping_matches_gateway": true,
+    "measured_event_stack_complete": true,
+    "primary_selected_rows_exclude_same_worker_concurrency": true,
+    "same_worker_concurrent_request_classification_matches": true,
+    "selected_warm_binding_rows_valid": true,
+    "workload_compute_overlap_diagnostic_matches": true
+  },
+  "coverage_scope": "per_request_same_worker_full_flow_nonoverlap",
+  "expected_warm_action_bound_identities": null,
+  "identity_source": "RG270.target_binding_id joined to Gateway ACTIVE endpoint host",
+  "observed_warm_identity_union": [
+    "4"
+  ],
+  "observed_warm_identity_union_count": 1,
+  "profile": "reusable-concurrency",
+  "schema_version": "c5-reusable-warm-identity-coverage-v3",
+  "status": "pass",
+  "worker_evidence": {
+    "active_target_bindings_by_worker": {
+      "<deployment-ip>": [
+        "1",
+        "4",
+        "8"
+      ],
+      "<deployment-ip>": [
+        "2",
+        "5",
+        "7"
+      ],
+      "<deployment-ip>": [
+        "3",
+        "6"
+      ]
+    },
+    "concurrent_request_count": 401,
+    "excluded_same_worker_concurrent_rows_by_worker": {
+      "<deployment-ip>": 20,
+      "<deployment-ip>": 381
+    },
+    "max_client_interval_overlap_by_worker": {
+      "<deployment-ip>": 2,
+      "<deployment-ip>": 2
+    },
+    "max_workload_compute_overlap_by_worker": {
+      "<deployment-ip>": 1,
+      "<deployment-ip>": 2
+    },
+    "measured_target_bindings_by_worker": {
+      "<deployment-ip>": [
+        "4"
+      ],
+      "<deployment-ip>": [
+        "5",
+        "7"
+      ]
+    },
+    "selected_warm_rows_by_worker": {
+      "<deployment-ip>": 198
+    },
+    "selected_warm_rows_by_workload": {
+      "compression-derived-random256k-level6-v1": 92,
+      "dynamic-html-derived-v1": 106
+    },
+    "workload_compute_overlap_diagnostic_count": 379
+  },
+  "workload_binding_distributions": {
+    "compression-derived-random256k-level6-v1": {
+      "4": 92
+    },
+    "dynamic-html-derived-v1": {
+      "4": 106
+    }
+  }
+}

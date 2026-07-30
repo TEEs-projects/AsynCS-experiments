@@ -1,0 +1,48 @@
+{
+  "acceptance_status": "accepted_formal_asyncs_e3_v2_profile_candidate",
+  "checks": {
+    "all_direct_event_codes_complete": true,
+    "all_quality_gates_pass": true,
+    "broad_logs_absent": true,
+    "cyclic_schedule_identity_complete": true,
+    "direct_event_no_inference": true,
+    "diagnostic_figures_visual_pass": true,
+    "formal_queue_retry_zero": true,
+    "kms_action_profile_left_running": true,
+    "main_review_diagnostic_figures_visual_pass": true,
+    "main_review_private_sha_107_of_107": true,
+    "main_review_public_sha_47_of_47": true,
+    "main_review_schedule_ordinal_w1_retry0": true,
+    "private_archive_checksum_verified": true,
+    "private_payload_files_absent": true,
+    "remote_round_root_precisely_cleaned": true,
+    "remote_local_byte_identity_complete": true,
+    "single_authority_action_fid": true
+  },
+  "diagnostic_figure_status": "reviewed_for_qa_not_accepted_as_paper_figures",
+  "main_agent_classification": "accepted_formal_asyncs_e3_v2_profile_candidate",
+  "main_review_date": "2026-07-25",
+  "owner_classification": "complete_valid_asyncs_e3_v2_candidate",
+  "private_archive": {
+    "bytes": 2273698679,
+    "file_count": 107,
+    "manifest_sha256": "d1f469fa3a8c19a5cd2bb38d04907d630080454001218422c54304d40570bead",
+    "path": "<private-authority-root>/experiments/e3-v2-asyncs/e3-v2-asyncs-authority-20260724T015050Z",
+    "sha256sum_sha256": "793c7d7d5a58f30fc6dae4fcb17b94ccc159d29d452422b3c76731bf267bb842"
+  },
+  "round_id": 361,
+  "schema_version": "e3-v2-asyncs-collection-final-audit-v1",
+  "status": "pass",
+  "totals": {
+    "activation_get": 700,
+    "full_output_verified": 700,
+    "openwhisk_direct_event_complete": 700,
+    "profile_timing_complete": 700,
+    "selected_warm": 699,
+    "shared_event_complete": 700,
+    "size_count": 7,
+    "store_ack": 700,
+    "submitted": 700,
+    "terminal_success": 700
+  }
+}

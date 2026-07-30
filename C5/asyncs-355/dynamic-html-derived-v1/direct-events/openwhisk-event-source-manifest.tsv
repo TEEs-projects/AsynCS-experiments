@@ -1,0 +1,4 @@
+source_role	source_path	bytes	sha256	matching_direct_event_rows
+controller	recovery/openwhisk/capture/controller.filtered.log	285528	2ba5d9f9c7ade716e08ba86431f07da6524bca970e70c0b26beb0fe12b7b7aa2	600
+scheduler	recovery/openwhisk/capture/scheduler.filtered.log	470733	fafe5a4b3d212786b97bd597f727145f0cb26fca5a718c4daa3cc2411f97f47b	896
+invoker	recovery/openwhisk/capture/invokers.filtered.log	657694	d3cd6c363a029b0e77d5f7f380ee4c4d5b96b82b45232dde8c5ae0d13c49a2a9	600

@@ -1,0 +1,10 @@
+schema_version	experiment_id	profile	event_code	boundary_name	default_order	required_level	description
+c5-timing-v1	C5	all	C010	client_submit_enter	10	required	Ordinary client starts one blocking invocation after all workload and profile preparation.
+c5-timing-v1	C5	all	C800	client_blocking_response_received	800	optional	Ordinary client receives the blocking activation response.
+c5-timing-v1	C5	all	C900	activation_get_first_readable	900	required	The same activation becomes readable through activation GET and releases one client window slot.
+c5-timing-v1	C5	all	DB500	activation_document_put_enter	950	required	Invoker enters CouchDB activation-document PUT for the exact activation id.
+c5-timing-v1	C5	all	DB510	activation_document_put_acknowledged	960	required	CouchDB acknowledges the exact activation-document PUT; the C5 full-flow endpoint.
+c5-timing-v1	C5	native	N400	native_function_enter	400	required	Native Node action enters the fixed C5 suite function; outer closure only.
+c5-timing-v1	C5	native	NW400	native_workload_enter	410	required	Native Node action enters the selected workload body after module initialization.
+c5-timing-v1	C5	native	NW410	native_workload_exit	420	required	Native Node action exits the selected workload body after producing the complete semantic output.
+c5-timing-v1	C5	native	N410	native_function_exit	430	required	Native Node action exits the fixed C5 suite function; outer closure only.

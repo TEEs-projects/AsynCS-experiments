@@ -1,0 +1,69 @@
+{
+  "cross_profile_output_rule": {
+    "compression-derived-random256k-level6-v1": "decompressed_output_equals_fixed_input; compressed bytes may differ by runtime",
+    "dynamic-html-derived-v1": "exact_output_bytes",
+    "sleep50-path-control-v1": "exact_output_bytes"
+  },
+  "measured_output_rule": "full output is verified once per profile/action revision in excluded correctness probes; measured responses carry only fixed-size output metadata and are checked against that probe",
+  "native_artifact": {
+    "kind": "nodejs:20",
+    "relative_path": "native/c5_native_workloads_v1.zip",
+    "sha256": "e37c0920ad877a89cf2f9f769aa05e9e08a4e9f802f6d509a45a4db56edbeba8",
+    "source_sha256": "9c729a6ad70fddec7f7c7073c108cfcf116373e5ff1d2560d99c92c001dab93f"
+  },
+  "schema_version": "c5-workload-contract-v1",
+  "suite_id": "c5-representative-warm-v1",
+  "transport_contract": {
+    "correctness_probe_full_output": true,
+    "measured_request_json_bytes": 1024,
+    "measured_result_json_bytes": 4096,
+    "measured_result_payload": "fixed_size_summary_without_output_bytes"
+  },
+  "workloads": {
+    "compression-derived-random256k-level6-v1": {
+      "application_input_bytes": 262144,
+      "application_input_sha256": "04f7209a1428aceb9b838a3043af314defd245fab3da383edf7753f23133d184",
+      "duration_target_ms": 10,
+      "duration_target_status": "requires_sgx_warm_smoke",
+      "function_class": "compression-derived",
+      "input_relative_path": "shared/random-256k-v1.bin",
+      "output_verification": "gzip_decompress_exact_input",
+      "parameters": {
+        "algorithm": "gzip",
+        "input_pattern": "sha256_counter_random",
+        "level": 6
+      },
+      "workload_logic_hash": "c5-gzip-level6-random256k-v1"
+    },
+    "dynamic-html-derived-v1": {
+      "application_input_bytes": 436,
+      "application_input_sha256": "624e204f2a3e8409d707cec0a753b28e9ef86c5d6b61e80b3f9dce5f65b565e4",
+      "duration_target_ms": 10,
+      "duration_target_status": "requires_sgx_warm_smoke",
+      "expected_output_bytes": 5701,
+      "expected_output_relative_path": "shared/expected-dynamic-html-v1.html",
+      "expected_output_sha256": "cdb9944b223ec3c2b4cd08d7befbb9dc1f5aaccb0a82398268912268f3fc5d88",
+      "function_class": "dynamic-html-derived",
+      "output_verification": "exact_bytes",
+      "parameters": {
+        "item_count": 64,
+        "render_iterations": 800
+      },
+      "workload_logic_hash": "c5-dynamic-html-portable-render-v1"
+    },
+    "sleep50-path-control-v1": {
+      "application_input_bytes": 15,
+      "application_input_sha256": "229fc4e019f65848450ba31212e45e116f09d3285513f4dbbb8d7dda82ed679b",
+      "expected_output_bytes": 65,
+      "expected_output_sha256": "aef1b1ab66482ca3d54740cd83c8b2f96a90dc7fb8b71d99a19cb6c1b48e73c7",
+      "expected_output_utf8": "{\"ok\":true,\"slept_ms\":50,\"workload_id\":\"sleep50-path-control-v1\"}",
+      "function_class": "path-control",
+      "output_verification": "exact_bytes",
+      "parameters": {
+        "sleep_ms": 50,
+        "timer": "releases_cpu"
+      },
+      "workload_logic_hash": "c5-async-sleep50-v1"
+    }
+  }
+}

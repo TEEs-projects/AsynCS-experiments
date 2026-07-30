@@ -1,0 +1,37 @@
+{
+  "complete_count": 17,
+  "coverage_status": "complete_17_of_17",
+  "event_name": "REUSABLE_TRACE_EXECUTOR_RUN",
+  "fresh_groups": "1-17",
+  "main_authority": "a1c2aca7d825b70dca3f47cffaee334cb58fc451",
+  "means_ms": {
+    "instantiate_mean_ms": "0.344463529",
+    "load_mean_ms": "38.242349353",
+    "worker_total_mean_ms": "38.586812882"
+  },
+  "missing_count": 0,
+  "row_count": 17,
+  "schema_version": "reusable-c2-16m-worker-stage-validation-v1",
+  "sensitive_identifier_columns": false,
+  "source_round_mapping": {
+    "1": 374,
+    "10": 379,
+    "11": 379,
+    "12": 380,
+    "13": 380,
+    "14": 381,
+    "15": 381,
+    "16": 382,
+    "17": 382,
+    "2": 374,
+    "3": 375,
+    "4": 376,
+    "5": 376,
+    "6": 377,
+    "7": 377,
+    "8": 378,
+    "9": 378
+  },
+  "status": "pass",
+  "worker_total_identity": "load_ms+instantiate_ms"
+}

@@ -1,0 +1,7 @@
+experiment_id	profile	scope	event_code	expected_activation_count	observed_row_count	observed_activation_count	selected_activation_count	invalid_direct_event_count	source_role_mismatch_count	duplicate_activation_count	coverage_status	detail
+C3	asyncs	measured	OW120	700	700	700	700	0	0	0	complete	direct marker coverage complete
+C3	asyncs	measured	OW150	700	700	700	700	0	0	0	complete	direct marker coverage complete
+C3	asyncs	measured	OW260	700	700	700	700	0	0	0	complete	direct marker coverage complete
+C3	asyncs	measured	OW300	700	1398	700	700	0	0	698	complete_with_dispatch_duplicates	all OW300 rows preserved; final dispatch selected before OW310
+C3	asyncs	measured	OW310	700	700	700	700	0	0	0	complete	direct marker coverage complete
+C3	asyncs	measured	OW800	700	700	700	700	0	0	0	complete	direct marker coverage complete

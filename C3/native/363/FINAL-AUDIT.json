@@ -1,0 +1,45 @@
+{
+  "acceptance_status": "accepted_formal_c3_e3_v2_native",
+  "artifact_classification": "accepted_observation_diagnostic_qa_only",
+  "checks": {
+    "all_direct_event_codes_complete": true,
+    "all_quality_gates_pass": true,
+    "broad_logs_absent": true,
+    "cyclic_schedule_identity_complete": true,
+    "diagnostic_figures_visual_pass": true,
+    "direct_event_no_inference": true,
+    "formal_queue_retry_zero": true,
+    "no_duplicate_or_topup_submit": true,
+    "private_local_checksum_verified": true,
+    "remote_large_object_checksum_recorded": true
+  },
+  "main_data_classification": "accepted_formal_c3_e3_v2_native",
+  "owner_data_classification": "complete_valid_native_e3_v2_candidate",
+  "private_archive": {
+    "activation_results_bytes": 1120056772,
+    "activation_results_sha256": "2f3f3369fecc4f39d715886b31ed323ea8afce60d1f8883bc6496fd5a8a94a2b",
+    "local_checksum_manifest_sha256": "aec8b5b6b4af02efbf542015b87b9ba77907090342b5da935d74eb45bd32e640",
+    "local_file_count": 9,
+    "local_formal_bytes": 565825199,
+    "remote_cleanup_deleted_at_utc": "2026-07-24T20:12:19Z",
+    "remote_cleanup_ledger": "REMOTE-CLEANUP-LEDGER.tsv",
+    "remote_cleanup_logical_bytes": 1680288628,
+    "remote_large_object_preserved": false,
+    "remote_large_objects_deleted_after_acceptance": true
+  },
+  "round_id": 363,
+  "schema_version": "e3-v2-native-collection-final-audit-v1",
+  "status": "pass",
+  "totals": {
+    "activation_get": 700,
+    "full_output_verified": 700,
+    "openwhisk_direct_event_complete": 700,
+    "profile_timing_complete": 700,
+    "selected_warm": 699,
+    "shared_event_complete": 700,
+    "size_count": 7,
+    "store_ack": 700,
+    "submitted": 700,
+    "terminal_success": 700
+  }
+}

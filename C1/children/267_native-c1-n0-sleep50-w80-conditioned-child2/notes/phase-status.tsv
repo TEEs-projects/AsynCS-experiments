@@ -1,0 +1,16 @@
+utc	phase	state	detail
+2026-07-15T03:37:19Z	verify_native_prewarm_pool	start	command=verify_native_prewarm_pool
+2026-07-15T03:37:21Z	verify_native_prewarm_pool	end	exit_code=0
+2026-07-15T03:38:16Z	collect_filtered_markers	start	command=collect_filtered_markers ANONYMOUS_WORKSPACE/asyncs-sgx-collection-20260615/experiments/collections/267_native-c1-n0-sleep50-w80-conditioned-child2/data/native/backend-pressure-completion-window-w80-n100000-p0-plateau-sleep50-cap8
+2026-07-15T03:39:01Z	collect_filtered_markers	end	exit_code=0
+2026-07-15T03:39:01Z	materialize_marker_tsvs	start	command=materialize_marker_tsvs 80 ANONYMOUS_WORKSPACE/asyncs-sgx-collection-20260615/experiments/collections/267_native-c1-n0-sleep50-w80-conditioned-child2/data/native/backend-pressure-completion-window-w80-n100000-p0-plateau-sleep50-cap8
+2026-07-15T03:39:09Z	materialize_marker_tsvs	end	exit_code=0
+2026-07-15T03:39:09Z	require_marker_discovery	start	command=require_completion_window_marker_discovery_complete ANONYMOUS_WORKSPACE/asyncs-sgx-collection-20260615/experiments/collections/267_native-c1-n0-sleep50-w80-conditioned-child2/data/native/backend-pressure-completion-window-w80-n100000-p0-plateau-sleep50-cap8 100000
+2026-07-15T03:39:09Z	require_marker_discovery	end	exit_code=0
+2026-07-15T03:39:09Z	verify_native_action_execution_capacity	start	command=verify_native_action_execution_capacity ANONYMOUS_WORKSPACE/asyncs-sgx-collection-20260615/experiments/collections/267_native-c1-n0-sleep50-w80-conditioned-child2/data/native/backend-pressure-completion-window-w80-n100000-p0-plateau-sleep50-cap8
+2026-07-15T03:39:13Z	verify_native_action_execution_capacity	end	exit_code=0
+2026-07-15T03:39:13Z	capture_container_lifecycle	start	command=capture_container_lifecycle after completion-window 267_native-c1-n0-sleep50-w80-conditioned-child2-completion-window c1_backend_pressure_native_sleep50_267_ccompletion-window
+2026-07-15T03:39:14Z	capture_container_lifecycle	end	exit_code=0
+2026-07-15T03:39:14Z	remote_summary	start	command=python3 ANONYMOUS_WORKSPACE/asyncs-sgx-collection-20260615/experiments/current-scripts/C1/internal-pressure/build_backend_pressure_summary.py --round-root ANONYMOUS_WORKSPACE/asyncs-sgx-collection-20260615/experiments/collections/267_native-c1-n0-sleep50-w80-conditioned-child2 --output ANONYMOUS_WORKSPACE/asyncs-sgx-collection-20260615/experiments/collections/267_native-c1-n0-sleep50-w80-conditioned-child2/figures/backend-pressure
+2026-07-15T03:39:20Z	remote_summary	end	exit_code=0
+2026-07-15T03:39:20Z	final_status	end	exit_code=0

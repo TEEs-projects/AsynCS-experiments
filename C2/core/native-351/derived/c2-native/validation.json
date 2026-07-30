@@ -1,0 +1,35 @@
+{
+  "acceptance_status": "not_reviewed",
+  "artifact_classification": "diagnostic_complete",
+  "artifacts": {
+    "attempts_sha256": "fc00189d455216cb20430c066feb4bbd9fa16fb98bfaf1f75b13321b786b2503",
+    "phase_breakdown_sha256": "8ae001ed7a8b45323225cd5501b6a58160851b1c605130df2fd3b3905403d42e",
+    "summary_sha256": "029b7e065319b577c4d7efb66abf3cd279b7f51f53e4ef3be6be9b9e9f9f60b6"
+  },
+  "checks": {
+    "acceptance_not_claimed": true,
+    "attempt_count_matches_contract": true,
+    "crypto_counts_not_zero_filled": true,
+    "diagnostic_classification_only": true,
+    "figure_c2_diagnostic_manifest.tsv_nonempty": true,
+    "figure_c2_diagnostic_statistics.csv_nonempty": true,
+    "figure_c2_diagnostic_statistics.png_nonempty": true,
+    "figure_c2_diagnostic_statistics.svg_nonempty": true,
+    "figure_c2_diagnostic_timeline.csv_nonempty": true,
+    "figure_c2_diagnostic_timeline.png_nonempty": true,
+    "figure_c2_diagnostic_timeline.svg_nonempty": true,
+    "fresh_action_revision_count": true,
+    "fresh_population_complete": true,
+    "materializer_gate_pass": true,
+    "native_crypto_explicit_not_on_path": true,
+    "native_direct_phase_complete": true,
+    "phase_rows_equal_fresh": true,
+    "store_complete": true,
+    "terminal_complete": true,
+    "warm_population_complete": true,
+    "workload_complete": true
+  },
+  "profile": "native",
+  "schema_version": "c2-native-artifact-validation-v1",
+  "status": "pass"
+}

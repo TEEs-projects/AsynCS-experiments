@@ -1,0 +1,165 @@
+{
+  "action": {
+    "concurrency": 1,
+    "count": 1,
+    "memory_mib": 256,
+    "name": "reusable_concurrency_c1_r0_sleep50_w80",
+    "stem_cells_per_invoker": 8,
+    "stem_prewarm": true,
+    "timeout_ms": 300000
+  },
+  "classification_scope": "c1_observation_first_child_not_paper_evidence_until_reviewed",
+  "collection_policy": {
+    "broad_logs": false,
+    "ciphertext": false,
+    "decrypted_result": false,
+    "mode": "filtered_light",
+    "private_source_state": false
+  },
+  "enclave": {
+    "heap_mib": 64,
+    "start_policy": "eager_on_prewarm_container_start"
+  },
+  "exact_refs": {
+    "gateway": "4f788bd391ae1d66afb920c4daa4ec00710f8e1b",
+    "openwhisk": "02e7c63531384c7fc2d58742e29185178b8106bd",
+    "top": "ce559e744478a12cd4514d71cf383ca400992af0",
+    "wamr": "05501ee63d4d8db6cc6eee0bc24910dcf10fcd54",
+    "wow": "79ef029acf3684480857b9db59c35bdce3a8d973"
+  },
+  "measurement": {
+    "completion_window": 80,
+    "completion_window_timeout_sec": 600,
+    "db_store_policy": "skipped-for-backend-pressure",
+    "entry_mode": "controller-internal-queue",
+    "expected_gateway_code": "observed_first_use; not_forced_to_zero",
+    "expected_gateway_input": "actual_submitted",
+    "expected_gateway_result": 0,
+    "failure_probability": 0,
+    "logical_requests": 100000,
+    "planned_logical_requests": 100000,
+    "plateau_min_improvement_fraction": 0.03,
+    "plateau_no_improve_sec": 10,
+    "plateau_policy_enabled": true,
+    "plateau_warmup_completions": 1000,
+    "plateau_warmup_sec": 10,
+    "plateau_window_size": 80,
+    "request_generation_mode": "completion_window",
+    "workload_id": "reusable-wasm-sleep-50ms",
+    "workload_sleep_ms": 50
+  },
+  "openwhisk": {
+    "runtime_manifest": "/ansible/files/runtimes-reusable-concurrency-c1-stem8-256.json"
+  },
+  "premeasurement": {
+    "capacity_creation": "runtime_manifest_stem_cells_only",
+    "configured_active_targets": 40,
+    "correctness_activation_attempts_max": 2,
+    "correctness_invocations": 1,
+    "correctness_mode": "ordinary_blocking_plaintext_step1_output",
+    "correctness_queue_retry_limit": 1,
+    "correctness_queue_retry_policy": "only_http500_with_activation_id_and_exact_queue_endpoint_failure",
+    "coverage_seed": false,
+    "execution_slot_inventory": "data/execution-slot-inventory.tsv",
+    "expected_gateway_code": 1,
+    "expected_gateway_input": 1,
+    "expected_gateway_result": 0,
+    "external_source_verifier_policy": "not_on_step1_path; one_blocking_http_200_plaintext_output_check",
+    "gateway_listener": {
+      "concurrent_client_slots": 128,
+      "listen_backlog": 128
+    },
+    "readiness_gate": "record_actual_ACTIVE_per_worker_up_to_configured_8; no_exact_or_persistent_40_gate",
+    "registered_target_inventory": "data/target-registration-objects.tsv",
+    "replacement_policy": "report_initial_replacement_and_new_separately; not_a_persistent_40_readiness_gate",
+    "request_capacity_seed": false,
+    "scheduler_gateway": {
+      "p1_read_timeout_ms": 120000,
+      "queue_max_retention_ms": 600000,
+      "reason": "W80 measurement transport setting; not used to create stems"
+    },
+    "source_session_strategy": "one_reusable_batch_session_for_count_1_correctness",
+    "target_registration": {
+      "gateway_read_timeout_ms": 120000,
+      "reason": "bounded profile readiness; no request-driven capacity preparation",
+      "target_ready_timeout_ms": 120000
+    }
+  },
+  "profile": "reusable-concurrency",
+  "purpose": "c1_r0_p0_controller_internal_queue_plateau_sleep50_w80",
+  "result_boundary": {
+    "external_measurement_decryption": "not_on_internal_queue_endpoint_path",
+    "full_flow_validation_pointer": "241_reusable-concurrency-s5-64m-ordinary-cold-warm-smoke-attempt-05",
+    "g2s_finalization": "not_on_step1_path",
+    "gateway_result": "not_on_path",
+    "terminal_event": "OW800"
+  },
+  "round_id": "319_reusable-concurrency-c1-r0-sleep50-w80-fresh-child3",
+  "schema_version": 1,
+  "timing": {
+    "execution_overlap_interval": "OW310->OW800 action-bound worker residency",
+    "execution_overlap_limit_per_worker": 8,
+    "gateway_service_ns": "component_internal_sidecar_not_in_stack",
+    "missing_phase_policy": "unavailable_not_zero_or_residual",
+    "stack": [
+      "BP010->OW120",
+      "OW120->OW150",
+      "OW150->OW260",
+      "OW260->RG270",
+      "RG270->RG280",
+      "RG280->OW300",
+      "OW300->OW310",
+      "OW310->OW800"
+    ],
+    "total": "BP010->OW800"
+  },
+  "top_provenance": {
+    "coordination_head": "ce559e744478a12cd4514d71cf383ca400992af0",
+    "executable_authority": "6686c90987e328b8a7ee133c8447e53c9d6dbba6"
+  },
+  "topology": {
+    "bridge_endpoint_ports_per_worker": [
+      9200,
+      9201,
+      9202,
+      9203,
+      9204,
+      9205,
+      9206,
+      9207,
+      9208,
+      9209,
+      9210,
+      9211,
+      9212,
+      9213,
+      9214,
+      9215
+    ],
+    "bridge_registered_target_capacity_per_worker": 16,
+    "control_ip": "host_9a77e341a3",
+    "execution_slots": 40,
+    "execution_slots_per_worker": 8,
+    "gateway_placement": "control-only",
+    "idle_replacement_target_budget_per_worker": 8,
+    "managed_containers_configured": 40,
+    "managed_containers_per_worker_configured": 8,
+    "target_endpoint_ports_per_worker": [
+      9200,
+      9201,
+      9202,
+      9203,
+      9204,
+      9205,
+      9206,
+      9207
+    ],
+    "workers": [
+      "host_131215316a",
+      "host_8f92d23d2a",
+      "host_20da272088",
+      "host_08173e0b6a",
+      "host_7edef57afe"
+    ]
+  }
+}

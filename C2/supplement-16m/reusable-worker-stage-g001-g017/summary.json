@@ -1,0 +1,19 @@
+{
+  "aggregate": "c2-reusable-concurrency-16m-supplemental-final-aggregate-g001-g017-20260727",
+  "complete_count": 17,
+  "coverage_status": "complete_17_of_17",
+  "event_name": "REUSABLE_TRACE_EXECUTOR_RUN",
+  "fresh_group_end": 17,
+  "fresh_group_start": 1,
+  "instantiate_mean_ms": "0.344463529",
+  "load_mean_ms": "38.242349353",
+  "main_authority": "a1c2aca7d825b70dca3f47cffaee334cb58fc451",
+  "missing_count": 0,
+  "missing_groups": [],
+  "row_count": 17,
+  "schema_version": "reusable-c2-16m-worker-stage-v1",
+  "selection_basis": "accepted_aggregate_fixed_group_map_no_performance_selection",
+  "sensitive_identifiers_emitted": false,
+  "source_archive_count": 9,
+  "worker_total_mean_ms": "38.586812882"
+}

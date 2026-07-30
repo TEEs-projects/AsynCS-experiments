@@ -1,0 +1,5 @@
+schema_version	experiment_id	profile	phase_name	from_event_code	to_event_code	relation	clock_rule	coverage_rule
+c5-timing-v1	C5	all	client_submit_to_couchdb_ack	C010	DB510	exact	require_unix	required_reference
+c5-timing-v1	C5	all	couchdb_save	DB500	DB510	exact	require_unix	stack_component
+c5-timing-v1	C5	native	native_function_outer	N400	N410	exact	require_mono_same_process	outer_closure
+c5-timing-v1	C5	native	native_workload_body	NW400	NW410	exact	require_mono_same_process	stack_component

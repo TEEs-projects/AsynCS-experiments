@@ -1,0 +1,22 @@
+{
+  "artifact_classification": "complete_valid_diagnostic_candidate",
+  "caveats": [
+    "dynamic-html selected warm low-contention count 65 is below the advisory target 100; no supplemental requests are allowed",
+    "OW300 distinct duplicate dispatch markers are preserved by the direct-event selection contract and do not create selected-ID missing or extra rows",
+    "remote scipy was unavailable only for derived materialization; canonical materialization and figures were generated locally from byte-verified recovered data"
+  ],
+  "checks": {
+    "both_measured_batches_complete": true,
+    "both_probes_complete": true,
+    "no_sustained_queue_buildup": true,
+    "openwhisk_direct_event_missing": 0,
+    "output_missing": 0,
+    "store_missing": 0,
+    "terminal_failures": 0,
+    "validators_pass": true
+  },
+  "data_classification": "complete_valid_candidate",
+  "paper_acceptance": "not_reviewed",
+  "round_basename": "352_native-c5-function-warm-low-contention-direct-events",
+  "schema_version": "c5-native-profile-owner-classification-v1"
+}

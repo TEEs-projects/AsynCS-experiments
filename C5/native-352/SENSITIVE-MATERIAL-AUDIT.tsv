@@ -1,0 +1,4 @@
+check	observed	expected	status
+private_activation_result_in_public	0	0	pass
+ssh_private_key_filename	0	0	pass
+private_key_pem_content	0	0	pass

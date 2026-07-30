@@ -1,0 +1,51 @@
+{
+  "action": {
+    "concurrency": 1,
+    "kind": "nodejs:20",
+    "memory_mb": 256,
+    "prefix": "c2_native_sleep50_r351_direct_events"
+  },
+  "artifact_sizes_bytes": [
+    65536,
+    262144,
+    1048576,
+    4194304
+  ],
+  "entry_mode": "ordinary_blocking_store_enabled_w1",
+  "experiment_id": "C2",
+  "extra_correctness_probe": false,
+  "openwhisk_apihost": "https://host_9a77e341a3",
+  "profile": "native",
+  "refs": {
+    "docs_ledger": "ca117255c45e1ef0c4e3e5d350020f72ec21560e",
+    "openwhisk": "ffcb6981ccfd029b17904091368f10bdec52c857",
+    "planning": "2d88033b7afa6e10667931f8933b5d204f285159",
+    "top_executable": "74d2038865e4398b5052fd3acd72662e8d24d6ee"
+  },
+  "request_payload_bytes": 1024,
+  "request_sequence": "prepare_static_then_publish_no_invoke_then_measure_960",
+  "round_basename": "351_native-c2-fresh-placement-size-grid-direct-events",
+  "round_number": 351,
+  "sampling": {
+    "fresh_groups_per_size": 40,
+    "planned_fresh": 160,
+    "planned_requests": 960,
+    "planned_warm": 800,
+    "warm_followups_per_fresh": 5
+  },
+  "seed_or_warmup_invocations": false,
+  "topology": {
+    "initial_stems_per_worker": 4,
+    "invoker_user_memory": "1024m",
+    "worker_count": 3,
+    "worker_targets": [
+      "host_131215316a=invoker0",
+      "host_20da272088=invoker1",
+      "host_08173e0b6a=invoker2"
+    ]
+  },
+  "workload": {
+    "id": "native-node-sleep-50ms",
+    "sleep_ms": 50
+  }
+}

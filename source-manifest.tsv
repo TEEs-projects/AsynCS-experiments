@@ -1,0 +1,16 @@
+family	export_root	source_root_or_authorized_manifest	accepted_ref	classification
+C1	C1/blocks and C1/children	release-source/collections/C1-5x8-and-3x4	E4/index-and-accepted-block-manifests	accepted 5x8 and 3x4 blocks
+C2	C2/core	release-source/collections/C2-core	E2/index-and-public-source-manifests	accepted core sources
+C2	C2/supplement-16m/asyncs-370	authorized-public-prepared/C2-asyncs-16m	6ad7a277c6b62674ced92fa58a4fa4a5c84cb8ff	authorized prepared-public manifest, ciphertext payloads, and public metadata
+C2	C2/supplement-16m/reusable-groups	accepted-child-sources/C2-reusable-16m	accepted-child-manifests-and-aggregate-handoff	accepted child derivatives and accepted G001-G017 aggregate
+C2	C2/supplement-16m/reusable-aggregate-g001-g017	accepted-aggregate/C2-reusable-16m-final	04326eea1fe3dcbb6c55735e901be2fa6e5d14f8	accepted user-closed aggregate, 102 logical and 107 attempts
+C2	C2/supplement-16m/reusable-worker-stage-g001-g017	accepted-worker-stage/C2-G001-G017	a1c2aca7d825b70dca3f47cffaee334cb58fc451	derived 17-row public-safe table; pending main review
+C3	C3/asyncs/361	accepted-handoff/C3-asyncs-E3-v2	09f45e4d12309a63615426631da1002f066525de	accepted formal Asyncs E3 v2 source
+C3	C3/native/363	accepted-collection/C3-native-E3-v2	6920a8246192c4605ba55977b173fcddb6d841bc	accepted formal Native E3 v2 source
+C3	C3/reusable/365	accepted-collection/C3-reusable-E3-v2	b525afc100a1936100d50378da90aff1e5215e86	accepted formal profile candidate; function timing retained; no paper promotion
+C4	C4/model	release-source/state-scaling/C4-model	C4/E5-deterministic-model-contract	accepted deterministic model
+C5	C5/asyncs-355	accepted-worktree/C5-asyncs-355	E0-accepted-direct-event-handoff	accepted structured direct-event source; validation-summary.json retained
+C5	C5/native-352	accepted-collection/C5-native-352	latest-direct-event-source-root	accepted structured direct-event source
+C5	C5/reusable-358	accepted-collection/C5-reusable-358	latest-direct-event-source-root	accepted structured direct-event source; event occurrences normalized in release
+C5	C5/inputs	accepted-source/C5-workload-contract-v1	INPUT-SHA256SUMS.tsv	profile-independent dynamic HTML and random-256KiB inputs plus contracts
+C5	C5/tools	accepted-source/C5-materializers-and-dictionaries	C5-tools-v1	minimum summary builder, validator, normalizer, and event dictionary

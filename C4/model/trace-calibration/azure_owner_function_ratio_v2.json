@@ -1,0 +1,140 @@
+{
+  "model_use": {
+    "boundary": "HashOwner groups sampled applications belonging to the same Azure subscription and is a tenant proxy, not an observed CoFunc tenant. The trace contains invoked functions in a sampled application set, not every deployed function.",
+    "cofunc_tenant_proxy": "HashOwner",
+    "cofunc_tenants_t": "ceil(F / 4.928751447449084)"
+  },
+  "per_day": [
+    {
+      "applications": 17577,
+      "day": "d01",
+      "functions": 46412,
+      "functions_per_application": 2.6404961028616944,
+      "functions_per_owner": 4.2043663375305735,
+      "owners": 11039
+    },
+    {
+      "applications": 17783,
+      "day": "d02",
+      "functions": 46889,
+      "functions_per_application": 2.63673171006017,
+      "functions_per_owner": 4.199641737572772,
+      "owners": 11165
+    },
+    {
+      "applications": 17898,
+      "day": "d03",
+      "functions": 47081,
+      "functions_per_application": 2.6305173762431555,
+      "functions_per_owner": 4.204411502053938,
+      "owners": 11198
+    },
+    {
+      "applications": 17961,
+      "day": "d04",
+      "functions": 47527,
+      "functions_per_application": 2.6461221535549244,
+      "functions_per_owner": 4.237050904876527,
+      "owners": 11217
+    },
+    {
+      "applications": 18018,
+      "day": "d05",
+      "functions": 46657,
+      "functions_per_application": 2.5894660894660895,
+      "functions_per_owner": 4.19049757499551,
+      "owners": 11134
+    },
+    {
+      "applications": 15496,
+      "day": "d06",
+      "functions": 36429,
+      "functions_per_application": 2.350864739287558,
+      "functions_per_owner": 3.7524721878862795,
+      "owners": 9708
+    },
+    {
+      "applications": 15163,
+      "day": "d07",
+      "functions": 36031,
+      "functions_per_application": 2.3762448064367208,
+      "functions_per_owner": 3.7149190638210126,
+      "owners": 9699
+    },
+    {
+      "applications": 17936,
+      "day": "d08",
+      "functions": 46998,
+      "functions_per_application": 2.6203166815343444,
+      "functions_per_owner": 4.180944755804644,
+      "owners": 11241
+    },
+    {
+      "applications": 18037,
+      "day": "d09",
+      "functions": 47659,
+      "functions_per_application": 2.6422908465931143,
+      "functions_per_owner": 4.220972455938358,
+      "owners": 11291
+    },
+    {
+      "applications": 18408,
+      "day": "d10",
+      "functions": 48405,
+      "functions_per_application": 2.6295632333767927,
+      "functions_per_owner": 4.266261237440507,
+      "owners": 11346
+    },
+    {
+      "applications": 18214,
+      "day": "d11",
+      "functions": 48105,
+      "functions_per_application": 2.6411002525529814,
+      "functions_per_owner": 4.235340729001585,
+      "owners": 11358
+    },
+    {
+      "applications": 18179,
+      "day": "d12",
+      "functions": 47188,
+      "functions_per_application": 2.5957423400627095,
+      "functions_per_owner": 4.201584898940433,
+      "owners": 11231
+    },
+    {
+      "applications": 15544,
+      "day": "d13",
+      "functions": 36676,
+      "functions_per_application": 2.3594956253216677,
+      "functions_per_owner": 3.7053950292988485,
+      "owners": 9898
+    },
+    {
+      "applications": 15412,
+      "day": "d14",
+      "functions": 36488,
+      "functions_per_application": 2.3675058396055024,
+      "functions_per_owner": 3.703237592611387,
+      "owners": 9853
+    }
+  ],
+  "schema_version": "azure-owner-function-ratio-v1",
+  "source": {
+    "archive_sha256": "aff8b3ca7240a41a109e4ee598e0a96e45fcb92e7b8395ac19cb3748cd260d89",
+    "dataset": "Azure Functions Trace 2019 revision 2",
+    "download_url": "https://github.com/Azure/AzurePublicDataset/releases/download/dataset-functions-2019/azurefunctions_dataset2019_azurefunctions-dataset2019.tar.xz",
+    "selection": "union of unique HashOwner/HashApp/HashFunction tuples in d01-d14 invocation files"
+  },
+  "union": {
+    "applications": 24274,
+    "applications_per_owner_mean": 1.6534296028880866,
+    "applications_per_owner_median": 1,
+    "functions": 72359,
+    "functions_per_application_mean": 2.9809260937628737,
+    "functions_per_application_median": 1.0,
+    "functions_per_owner_mean": 4.928751447449084,
+    "functions_per_owner_median": 2,
+    "functions_per_owner_p95": 17.0,
+    "owners": 14681
+  }
+}

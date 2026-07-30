@@ -1,0 +1,35 @@
+{
+  "action_prefix": "380_c2-reusable-concurrency-16m-child-g012-g013",
+  "artifact_sizes_bytes": [
+    16777216
+  ],
+  "contract_mode": "supplemental-16m",
+  "fresh_groups_per_size": 40,
+  "profile": "reusable-concurrency",
+  "request_payload_bytes": 1024,
+  "request_payload_sha256": "34b059c2ead4f813a03fde62d32a81cd42dc6c6a8dbf9325c00af66eff16e38d",
+  "request_phase": "all",
+  "run_id": "380_c2-reusable-concurrency-16m-child-g012-g013",
+  "schema_version": "c2-reusable-package-grid-v1",
+  "source_artifact_commit": "7fcebe6ba58d1d0bf1a2e3d55a66bc2e801571a7",
+  "source_artifacts": [
+    {
+      "application_input_sha256": "dd2eb127f90d697ae5d0d387d6217d0a4c95dc027db51dd787f60e68e3b44591",
+      "artifact_path": "workloads/c2_sleep50_package_16m/asyncs-c2-sleep50-16777216.wasm",
+      "artifact_sha256": "b1dc941544c55bbfd4f0474ce4233da7f19d101354f9a5c4eb9d2e871eb994c4",
+      "artifact_size_bytes": 16777216,
+      "code_envelope_bytes": 16777292,
+      "code_envelope_payload_length": 16777216,
+      "code_envelope_sha256": "9cb899a39009c190e5bbe5a3e2ec32633ba538d88ffde9877a07b1e8430020d8",
+      "code_object_hash": "b1dc941544c55bbfd4f0474ce4233da7f19d101354f9a5c4eb9d2e871eb994c4",
+      "configured_request_count": 240,
+      "input_payload_pack_sha256": "a0e4009bd79f7873158eb3accd455899f6f2615abba918550486d487a2d9a845",
+      "request_manifest_sha256": "304bd7fa8c4d5fb73c23b6a7999fd501bd7ced90c3fcd714eaf2ae020fb892c6",
+      "request_plan_sha256": "03b7acf4353aa7d9c052b60786e9124726bbf17dd390cf99e206e8f1ceb72a3b",
+      "requests_sha256": "f622ed16878254c3f985671f7cc9a056d82c3a92468b2eb95c0469c6c1c20215",
+      "schema_version": "c2-reusable-package-grid-v1",
+      "source_binding_id": 1
+    }
+  ],
+  "warm_followups_per_fresh": 5
+}

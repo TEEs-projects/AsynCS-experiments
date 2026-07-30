@@ -1,0 +1,6 @@
+artifact,sha256,bytes,description
+generated/c4_e5_state_scaling.csv,90979781e0b8404e7e9b2a78b56c976fa097850861fd9f5ca1e55b8b6df083bc,7276,deterministic C4 state rows
+generated/c4_e5_constants.csv,d5c91ae49877bd1f7d38c93204c2ab2d333e1a9b00006d9e524a94cc10c82e72,675,model constants and evidence classes
+generated/c4_e5_baseline_coverage.csv,b8d11a61c5b0542d70cca3355d97173e205eb17b70e124acd47fd4cda44cdf92,1112,baseline completeness and N/A boundaries
+generated/e5_key_related_protected_state.svg,4a234691d15dab9fc2e7c2717d7de2b9449cccb69605e7ce50348ad168504c3f,81902,"current E5 main figure, vector"
+generated/e5_key_related_protected_state.png,50f27e627866d82e42f4c4b63a40f1d007eaa83a222dd9f92d196be1ef73ffd2,251255,"current E5 main figure, raster"

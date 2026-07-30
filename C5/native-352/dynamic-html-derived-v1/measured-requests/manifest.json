@@ -1,0 +1,18 @@
+{
+  "action_fqen": "/guest/c5_native_function_warm_low_contention_352_direct_events",
+  "action_identity_sha256": "7c95d7eb747a585de4ba37797448eeea20f9011253d96f6672edd9740afe5c34",
+  "action_revision": "0.0.1@1784741948012",
+  "measured_request_json_bytes": 1024,
+  "measured_result_json_bytes": 4096,
+  "phase": "measured",
+  "profile": "native",
+  "request_count": 300,
+  "requests_file": "requests.jsonl",
+  "requests_sha256": "1dc02b365415f99d0e920017be9cfdba4defda5099fe1e13c5d4c540693335e5",
+  "schema_version": "c5-native-requests-v1",
+  "suite_id": "c5-representative-warm-v1",
+  "workload_artifact_sha256": "e37c0920ad877a89cf2f9f769aa05e9e08a4e9f802f6d509a45a4db56edbeba8",
+  "workload_contract_sha256": "e78fac55ef7c486824d5912c6c956fc70520dacb6a913ad6b135fd51e2afbd43",
+  "workload_id": "dynamic-html-derived-v1",
+  "workload_logic_hash": "c5-dynamic-html-portable-render-v1"
+}

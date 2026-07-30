@@ -1,0 +1,20 @@
+family	profile/source	accepted_ref_or_root	coverage	selected_count_or_shape	status
+C1	asyncs 5x8	260-262	three children, W=80, sleep50, 5x8	block summary plus child tables	included
+C1	native 5x8	267-269	three children, W=80, sleep50, 5x8	block summary plus child tables	included
+C1	reusable 5x8	317-319	three children, W=80, sleep50, 5x8	request/event tables	included
+C1	asyncs 3x4	326-328	three children, W=20, sleep50, 3x4	child summaries	included
+C1	native 3x4	329-331	three children, W=20, sleep50, 3x4	child summaries	included
+C1	reusable 3x4	333-335	three children, W=20, sleep50, 3x4	request/event tables	included
+C2	asyncs core	340	four package sizes, fresh and warm derived tables	960 requests described by source README	included
+C2	native core	351	fresh-placement direct-event size grid	public source manifest and derived tables	included
+C2	reusable core	360	fresh-placement request-level direct-event grid	derived request tables	included
+C2	asyncs 16 MiB	370	public-prepared ciphertext payloads	240 request rows (40 fresh + 200 warm), encrypted action parameters, and action archive included; private verifier/skU excluded	included
+C2	reusable 16 MiB aggregate	374-382 / G001-G017	17 fresh + 85 immediate warm; 102 logical requests; 107 selected attempts	accepted aggregate tables and group-source map	accepted user-closed final aggregate
+C2	reusable 16 MiB worker stage	374-382 / G001-G017	17 direct-event rows; 17/17 locally validated	worker-stage-events.tsv and validation metadata	pending main review; not an accepted headline result
+C3	native	363	7 sizes (1 KiB-4 MiB), 100/size, 700 submitted/terminal/output/store, 699 selected	direct-event, request-level and timing tables	included; accepted formal E3 v2 source
+C3	asyncs	361	7 sizes (1 KiB-4 MiB), 100/size, 700 submitted/terminal/output/store, 699 selected	direct-event, request-level and timing tables	included; accepted formal E3 v2 source
+C3	reusable	365	7 sizes (1 KiB-4 MiB), 100/size, 700 submitted/terminal/output/store, 699 selected	direct-event, request-level and function-timing tables	included; accepted formal profile candidate, no paper promotion
+C4	model	state-scaling/c4-e5	25 deterministic rows, five function scales	generated CSV and validator	included
+C5	asyncs	355	dynamic 300/300/300/300, warm 298, selected 121; compression 300/300/300/300, warm 300, selected 95	request/submit, verification, timing, activation/store, C5 attempts/summary, normalized direct events	included; source validation is validation-summary.json
+C5	native	352	dynamic 300/300/300/300, warm 299, selected 65; compression 300/300/300/300, warm 300, selected 121	request/submit, verification, timing, activation/store, C5 attempts/summary/validation, direct events	included
+C5	reusable	358	dynamic 300/300/300/300, warm 298, selected 106; compression 300/300/300/300, warm 300, selected 92	request/submit, verification, profile/function timing, activation/store, C5 attempts/summary/validation, normalized direct events	included

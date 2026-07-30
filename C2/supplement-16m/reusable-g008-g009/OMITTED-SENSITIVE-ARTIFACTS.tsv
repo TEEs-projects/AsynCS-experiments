@@ -1,0 +1,8 @@
+category	public_policy	protected_provenance	reason
+raw_wasm	omitted	private/artifact-root/workloads/c2_sleep50_package_16m/asyncs-c2-sleep50-16777216.wasm	Byte-exact function artifact is protected and represented publicly by path/bytes/SHA.
+application_input	omitted	private/accepted-application-input.bin	Plaintext application input is protected and represented publicly by path/bytes/SHA.
+source_state	omitted	private/source-state/16777216/code.s2g;private/source-state/16777216/input-batch.pack	Current-Gateway protected envelopes are protected and represented publicly by path/bytes/SHA.
+request_bodies	omitted	private/request-body/sizes/16777216/requests.jsonl	Materialized request bodies are protected and represented publicly by path/bytes/SHA.
+activation_documents	omitted	private/recovery-input/activations.jsonl	Full activation/result documents are protected; public recovery retains only structured joins and bounded event lines.
+verifiers	omitted	private/verifiers/16777216/verifiers.jsonl	Verifier contents are protected and represented publicly by path/bytes/SHA.
+broad_component_logs	not_collected	not_applicable	Only activation-ID, RID, CODE-hash, Gateway-line, selected-Invoker, target lifecycle, and pre-removal RCD bounded rows were collected.

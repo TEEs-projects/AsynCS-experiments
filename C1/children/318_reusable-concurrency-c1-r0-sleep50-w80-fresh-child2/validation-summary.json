@@ -1,0 +1,66 @@
+{
+  "activation_get_404": 3869,
+  "actual_submitted": 3869,
+  "classification_recommendation": "accepted_c1_r0_first_child_observation_candidate",
+  "completed": 3869,
+  "configured_execution_slots": 40,
+  "container_join_samples": 3776,
+  "correctness_verifiers": 1,
+  "covered_stack_samples": 3869,
+  "event_counts": {
+    "BP010": 3869,
+    "OW120": 3869,
+    "OW150": 3869,
+    "OW260": 3869,
+    "OW300": 3869,
+    "OW310": 3869,
+    "OW800": 3869,
+    "RG270": 3869,
+    "RG280": 3869
+  },
+  "initial_target_bindings": 40,
+  "max_action_bound_overlap_by_worker": {
+    "host_131215316a": 8,
+    "host_8f92d23d2a": 8,
+    "host_20da272088": 8,
+    "host_08173e0b6a": 8,
+    "host_7edef57afe": 8
+  },
+  "max_concurrent_request_intervals_by_worker": {
+    "host_131215316a": 9,
+    "host_8f92d23d2a": 8,
+    "host_20da272088": 9,
+    "host_08173e0b6a": 8,
+    "host_7edef57afe": 8
+  },
+  "measured_distinct_containers": 39,
+  "measured_distinct_containers_by_worker": {
+    "host_131215316a": 8,
+    "host_8f92d23d2a": 8,
+    "host_20da272088": 7,
+    "host_08173e0b6a": 8,
+    "host_7edef57afe": 8
+  },
+  "measurement_gateway_code": 40,
+  "missing_container_join_samples": 93,
+  "missing_workload_duration_samples": 93,
+  "paper_evidence": false,
+  "planned_cap": 100000,
+  "premeasurement_actual_ready": 40,
+  "premeasurement_actual_ready_by_worker": {
+    "host_131215316a": 8,
+    "host_8f92d23d2a": 8,
+    "host_20da272088": 8,
+    "host_08173e0b6a": 8,
+    "host_7edef57afe": 8
+  },
+  "replacement_setup_registrations_observed": 41,
+  "round304_stable_qps": 110.0,
+  "stable_qps_delta_vs_round304": 0.0,
+  "stable_qps_exceeds_round304": false,
+  "status": "c1_r0_sleep50_w80_candidate_complete",
+  "step1_stable_qps": 110.0,
+  "store_skips": 3869,
+  "workers": 5,
+  "workload_duration_samples": 3776
+}

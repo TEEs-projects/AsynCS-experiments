@@ -1,0 +1,16 @@
+utc	phase	state	detail
+2026-07-18T22:05:33Z	verify_native_prewarm_pool	start	command=verify_native_prewarm_pool
+2026-07-18T22:05:33Z	verify_native_prewarm_pool	end	exit_code=0
+2026-07-18T22:06:20Z	collect_filtered_markers	start	command=collect_filtered_markers ANONYMOUS_WORKSPACE/c1-asyncs-3x4-exec-964253a/experiments/collections/330_native-c1-topology-3x4-w20-formal-child2/data/native/backend-pressure-completion-window-w20-n100000-p0-plateau-sleep50-cap4
+2026-07-18T22:06:28Z	collect_filtered_markers	end	exit_code=0
+2026-07-18T22:06:28Z	materialize_marker_tsvs	start	command=materialize_marker_tsvs 20 ANONYMOUS_WORKSPACE/c1-asyncs-3x4-exec-964253a/experiments/collections/330_native-c1-topology-3x4-w20-formal-child2/data/native/backend-pressure-completion-window-w20-n100000-p0-plateau-sleep50-cap4
+2026-07-18T22:06:30Z	materialize_marker_tsvs	end	exit_code=0
+2026-07-18T22:06:30Z	require_marker_discovery	start	command=require_completion_window_marker_discovery_complete ANONYMOUS_WORKSPACE/c1-asyncs-3x4-exec-964253a/experiments/collections/330_native-c1-topology-3x4-w20-formal-child2/data/native/backend-pressure-completion-window-w20-n100000-p0-plateau-sleep50-cap4 100000
+2026-07-18T22:06:30Z	require_marker_discovery	end	exit_code=0
+2026-07-18T22:06:30Z	verify_native_action_execution_capacity	start	command=verify_native_action_execution_capacity ANONYMOUS_WORKSPACE/c1-asyncs-3x4-exec-964253a/experiments/collections/330_native-c1-topology-3x4-w20-formal-child2/data/native/backend-pressure-completion-window-w20-n100000-p0-plateau-sleep50-cap4
+2026-07-18T22:06:31Z	verify_native_action_execution_capacity	end	exit_code=0
+2026-07-18T22:06:31Z	capture_container_lifecycle	start	command=capture_container_lifecycle after completion-window 330_native-c1-topology-3x4-w20-formal-child2-completion-window c1_backend_pressure_native_sleep50_330_ccompletion-window
+2026-07-18T22:06:32Z	capture_container_lifecycle	end	exit_code=0
+2026-07-18T22:06:32Z	remote_summary	start	command=python3 ANONYMOUS_WORKSPACE/c1-asyncs-3x4-exec-964253a/experiments/current-scripts/C1/internal-pressure/build_backend_pressure_summary.py --round-root ANONYMOUS_WORKSPACE/c1-asyncs-3x4-exec-964253a/experiments/collections/330_native-c1-topology-3x4-w20-formal-child2 --output ANONYMOUS_WORKSPACE/c1-asyncs-3x4-exec-964253a/experiments/collections/330_native-c1-topology-3x4-w20-formal-child2/figures/backend-pressure
+2026-07-18T22:06:33Z	remote_summary	end	exit_code=0
+2026-07-18T22:06:33Z	final_status	end	exit_code=0

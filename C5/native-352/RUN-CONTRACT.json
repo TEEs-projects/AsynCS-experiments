@@ -1,0 +1,38 @@
+{
+  "action": "/guest/c5_native_function_warm_low_contention_352_direct_events",
+  "direct_event_codes": [
+    "OW120",
+    "OW150",
+    "OW260",
+    "OW300",
+    "OW310",
+    "OW800"
+  ],
+  "excluded_correctness_probe": true,
+  "matrix_ref": "682f365d",
+  "measured_count_per_workload": 300,
+  "measured_semantics_ref": "98a13615fe0e457a30ef1d1541029c9c966b4d77",
+  "measured_window_size": 3,
+  "openwhisk_ref": "ffcb6981ccfd029b17904091368f10bdec52c857",
+  "ordinary_blocking_store": true,
+  "probe_count_per_workload": 1,
+  "profile": "native",
+  "remote_base_head": "74d2038865e4398b5052fd3acd72662e8d24d6ee",
+  "request_json_bytes": 1024,
+  "result_json_bytes": 4096,
+  "round_basename": "352_native-c5-function-warm-low-contention-direct-events",
+  "round_number": 352,
+  "schema_version": "c5-native-direct-event-run-contract-v1",
+  "supplemental_batches_allowed": false,
+  "sync_mode": "scoped_target_blob_restore",
+  "target_top_ref": "46bdc46eac8f9e87059fe7c045e52c25865e7356",
+  "worker_targets": {
+    "<deployment-ip>": "invoker0",
+    "<deployment-ip>": "invoker1",
+    "<deployment-ip>": "invoker2"
+  },
+  "workloads": [
+    "dynamic-html-derived-v1",
+    "compression-derived-random256k-level6-v1"
+  ]
+}

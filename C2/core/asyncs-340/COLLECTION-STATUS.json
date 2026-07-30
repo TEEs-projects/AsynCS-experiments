@@ -1,0 +1,11 @@
+{
+  "acceptance_status": "not_reviewed",
+  "artifact_classification": "diagnostic_complete",
+  "data_classification": "complete_valid_candidate_pending_main_review",
+  "expected_request_count": 960,
+  "fresh_eligible_count": 160,
+  "observed_request_count": 960,
+  "schema_version": "c2-asyncs-formal-collection-status-v1",
+  "terminal_failure_or_missing_count": 0,
+  "warm_eligible_count": 800
+}

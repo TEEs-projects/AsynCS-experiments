@@ -1,0 +1,11 @@
+{
+  "completed_with_store_evidence": 960,
+  "failure_count": 0,
+  "invocation_mode": "ordinary_blocking_store_enabled_w1",
+  "measured_request_count": 960,
+  "ordinary_submit_driver_role": "online_plaintext_blocking_submit_only",
+  "phase": "measurement_complete",
+  "profile": "native",
+  "provider_prepare_role_after_publish": "artifact_prepare_and_action_publish_processes_exited_not_on_measured_path",
+  "schema_version": "c2-native-placement-state-v1"
+}

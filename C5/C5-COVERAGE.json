@@ -1,0 +1,89 @@
+{
+  "schema_version": "c5-public-coverage-v1",
+  "workloads": [
+    {
+      "profile": "native-352",
+      "workload": "dynamic-html-derived-v1",
+      "attempt_rows": 300,
+      "summary_rows": 1,
+      "submitted_count": 300,
+      "terminal_success_count": 300,
+      "output_verified_count": 300,
+      "store_ack_count": 300,
+      "warm_eligible_count": 299,
+      "selected_warm_count": 65,
+      "direct_event_rows": 2672,
+      "validation_status": "pass"
+    },
+    {
+      "profile": "native-352",
+      "workload": "compression-derived-random256k-level6-v1",
+      "attempt_rows": 300,
+      "summary_rows": 1,
+      "submitted_count": 300,
+      "terminal_success_count": 300,
+      "output_verified_count": 300,
+      "store_ack_count": 300,
+      "warm_eligible_count": 300,
+      "selected_warm_count": 121,
+      "direct_event_rows": 2690,
+      "validation_status": "pass"
+    },
+    {
+      "profile": "asyncs-355",
+      "workload": "dynamic-html-derived-v1",
+      "attempt_rows": 300,
+      "summary_rows": 1,
+      "submitted_count": 300,
+      "terminal_success_count": 300,
+      "output_verified_count": 300,
+      "store_ack_count": 300,
+      "warm_eligible_count": 298,
+      "selected_warm_count": 121,
+      "direct_event_rows": 2096,
+      "validation_status": "pass"
+    },
+    {
+      "profile": "asyncs-355",
+      "workload": "compression-derived-random256k-level6-v1",
+      "attempt_rows": 300,
+      "summary_rows": 1,
+      "submitted_count": 300,
+      "terminal_success_count": 300,
+      "output_verified_count": 300,
+      "store_ack_count": 300,
+      "warm_eligible_count": 300,
+      "selected_warm_count": 95,
+      "direct_event_rows": 2097,
+      "validation_status": "pass"
+    },
+    {
+      "profile": "reusable-358",
+      "workload": "dynamic-html-derived-v1",
+      "attempt_rows": 300,
+      "summary_rows": 1,
+      "submitted_count": 300,
+      "terminal_success_count": 300,
+      "output_verified_count": 300,
+      "store_ack_count": 300,
+      "warm_eligible_count": 298,
+      "selected_warm_count": 106,
+      "direct_event_rows": 7199,
+      "validation_status": "pass"
+    },
+    {
+      "profile": "reusable-358",
+      "workload": "compression-derived-random256k-level6-v1",
+      "attempt_rows": 300,
+      "summary_rows": 1,
+      "submitted_count": 300,
+      "terminal_success_count": 300,
+      "output_verified_count": 300,
+      "store_ack_count": 300,
+      "warm_eligible_count": 300,
+      "selected_warm_count": 92,
+      "direct_event_rows": 7200,
+      "validation_status": "pass"
+    }
+  ]
+}

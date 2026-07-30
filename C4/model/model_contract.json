@@ -1,0 +1,66 @@
+{
+  "schema_version": "asyncs-c4-e5-state-scaling-v2",
+  "functions": [1, 10, 100, 1000, 10000],
+  "placement_ratio_numerator": 1,
+  "placement_ratio_denominator": 4,
+  "replicas_per_placement": 1,
+  "tenant_count": 1,
+  "constants": [
+    {
+      "name": "asyncs_authority_msk_bytes",
+      "value": 32,
+      "unit": "bytes",
+      "evidence_type": "source-derived",
+      "source_id": "asyncs-kms-msk"
+    },
+    {
+      "name": "bfibe_private_capability_bytes",
+      "value": 96,
+      "unit": "bytes",
+      "evidence_type": "source-derived",
+      "source_id": "asyncs-bfibe-g2"
+    },
+    {
+      "name": "asyncs_capabilities_per_placement",
+      "value": 2,
+      "unit": "objects",
+      "evidence_type": "source-derived",
+      "source_id": "asyncs-worker-capabilities"
+    },
+    {
+      "name": "canonical_fid_bytes",
+      "value": 32,
+      "unit": "bytes",
+      "evidence_type": "source-derived",
+      "source_id": "asyncs-canonical-fid"
+    },
+    {
+      "name": "asyncs_bfibe_declared_storage_bytes_per_placement",
+      "value": 649,
+      "unit": "bytes",
+      "evidence_type": "source-derived",
+      "source_id": "asyncs-worker-bfibe-storage"
+    },
+    {
+      "name": "asyncs_bfibe_linker_padding_bytes_per_placement",
+      "value": 56,
+      "unit": "bytes",
+      "evidence_type": "artifact-measured",
+      "source_id": "asyncs-worker-elf-symbols"
+    },
+    {
+      "name": "reusable_aek_bytes",
+      "value": 16,
+      "unit": "bytes",
+      "evidence_type": "source-derived",
+      "source_id": "reusable-session-aek"
+    },
+    {
+      "name": "reusable_session_binding_bytes",
+      "value": 8,
+      "unit": "bytes",
+      "evidence_type": "source-derived",
+      "source_id": "reusable-session-binding"
+    }
+  ]
+}

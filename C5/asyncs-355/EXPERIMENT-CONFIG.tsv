@@ -1,0 +1,17 @@
+key	value
+round_id	355_asyncs-c5-function-warm-low-contention-direct-events
+profile	asyncs
+topology	1_control_3_workers
+selected_workers	<deployment-ip>,<deployment-ip>,<deployment-ip>
+managed_kind	asyncs:1
+initial_stems_per_worker	4
+action_memory_mib	256
+action_concurrency	1
+invoker_user_memory	1024m
+ordinary_store	enabled
+client_window	3
+failure_probability	0
+request_json_bytes	1024
+result_json_bytes	4096
+submitted_per_workload	300
+direct_event_codes	OW120,OW150,OW260,OW300,OW310,OW800

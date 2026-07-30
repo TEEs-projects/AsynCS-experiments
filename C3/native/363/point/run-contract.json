@@ -1,0 +1,15 @@
+{
+  "api_host": "https://<deployment-host>",
+  "client_host": "control",
+  "db_store_policy": "ordinary-blocking-store-enabled",
+  "e3_v2_contract_sha256": "57d29d709a5e78bbbea72d4fb1732090c3065260804c947ed468bb119366bdce",
+  "invocation_path": "ordinary-blocking",
+  "phase": "measured",
+  "profile": "native",
+  "request_count": 700,
+  "request_generation": "all-native-raw-ascii-requests-prepared-before-measured-start",
+  "sample_organization": "single-profile-seven-size-cyclic-interleave",
+  "schema_version": "e3-v2-run-contract-v1",
+  "transport_mode": "control-local-nginx-frontdoor",
+  "window_size": 1
+}

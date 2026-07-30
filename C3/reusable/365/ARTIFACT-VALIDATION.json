@@ -1,0 +1,26 @@
+{
+  "acceptance_status": "not_reviewed",
+  "attempted_count": 700,
+  "checks": {
+    "acceptance_not_claimed": true,
+    "attempt_count_700": true,
+    "each_size_submitted_100": true,
+    "figures_complete": true,
+    "gateway_contract": true,
+    "materializer_validation_pass": true,
+    "occurrence_count_matches": true,
+    "ordinals_contiguous": true,
+    "required_direct_coverage": true,
+    "round_counts_complete": true,
+    "round_selected_count_matches": true,
+    "schedule_cyclic": true,
+    "seven_size_rows": true,
+    "terminal_output_store_complete": true,
+    "warm_selection_is_event_based": true
+  },
+  "classification_proposal": "owner_candidate_formal_e3_v2_complete",
+  "event_occurrence_count": 27301,
+  "schema_version": "e3-v2-reusable-artifact-validation-v1",
+  "status": "pass",
+  "warm_selected_count": 699
+}

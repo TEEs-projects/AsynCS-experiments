@@ -1,0 +1,17 @@
+{
+  "action_default_params_sha256": "e4b9d5be51ce0c0985e3331677a2958dd4b0e689aa996e2077c68b2924704e82",
+  "action_zip_bytes": 16777372,
+  "action_zip_sha256": "f16899478fe6e2b238372e5942306b222cfd468a104f8b2100f78ce081c395d5",
+  "artifact_size_bytes": 16777216,
+  "c_func_bytes": 16777244,
+  "c_func_sha256": "dacbe8f2138dfd562bad08baf97049c458100cec22ddb8ce87ee33fd5e221b55",
+  "c_k_func_bytes": 259,
+  "c_k_func_sha256": "0403c0609783412da7aba22769248b16238d4a164a9f852bf065a0873211c2fd",
+  "crypto_profile": "bfibe-mcl-bls12381",
+  "fid": "c2-s50-16m-20260726T020228Z",
+  "key_ciphertext_format": "bfibe-mcl-bls12381-envelope-v1",
+  "label": "dacbe8f2138dfd562bad08baf97049c458100cec22ddb8ce87ee33fd5e221b55",
+  "raw_wasm_bytes": 16777216,
+  "raw_wasm_sha256": "b1dc941544c55bbfd4f0474ce4233da7f19d101354f9a5c4eb9d2e871eb994c4",
+  "schema_version": "c2-asyncs-action-package-v1"
+}

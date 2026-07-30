@@ -1,0 +1,26 @@
+{
+  "action_default_params_sha256": "e4b9d5be51ce0c0985e3331677a2958dd4b0e689aa996e2077c68b2924704e82",
+  "action_prefix": "c2_asyncs_s50_16m_sf_20260726t020228z",
+  "artifact_size_bytes": 16777216,
+  "configured_request_count": 240,
+  "crypto_profile": "bfibe-mcl-bls12381",
+  "fid": "c2-s50-16m-20260726T020228Z",
+  "fresh_groups": 40,
+  "key_ciphertext_format": "bfibe-mcl-bls12381-envelope-v1",
+  "label": "dacbe8f2138dfd562bad08baf97049c458100cec22ddb8ce87ee33fd5e221b55",
+  "package_authority_keys": [
+    "FID",
+    "C_k_func",
+    "label",
+    "crypto_profile",
+    "key_ciphertext_format"
+  ],
+  "package_authority_location": "openwhisk_action_default_parameters_final",
+  "private_verifiers_sha256": "8b6458329c412151e0d18f0899697ffc249e195d74e849d0cc5dcf73d334acbe",
+  "request_input_bytes": 1024,
+  "request_input_sha256": "34b059c2ead4f813a03fde62d32a81cd42dc6c6a8dbf9325c00af66eff16e38d",
+  "requests_file": "requests.jsonl",
+  "requests_sha256": "efb7c9c7a74392568fe0afb0ab46e9cf4382f9463444c9fcb76120706d8fe854",
+  "schema_version": "c2-asyncs-prepared-requests-v1",
+  "warm_followups_per_fresh": 5
+}

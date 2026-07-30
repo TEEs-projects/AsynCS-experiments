@@ -1,0 +1,14 @@
+source_family	event_code	source_occurrences	canonical_distinct_occurrences	covered_activation_count	required_activation_count	status	selection_rule
+client	C010	700	700	700	700	complete	exactly_one_per_activation
+client	C800	700	700	700	700	complete	exactly_one_per_activation
+client	C900	700	700	700	700	complete	exactly_one_per_activation
+openwhisk	OW120	700	700	700	700	complete	primary_direct_marker
+openwhisk	OW150	700	700	700	700	complete	primary_direct_marker
+openwhisk	OW260	700	700	700	700	complete	primary_direct_marker
+openwhisk	OW300	1399	1399	700	700	complete_with_dispatch_duplicates	preserve_distinct_dispatches_select_primary
+openwhisk	OW310	1400	700	700	700	complete	collapse_exact_mirrored_markers_select_primary
+openwhisk	OW800	1400	700	700	700	complete	collapse_exact_mirrored_markers_select_primary
+store	DB500	700	700	700	700	complete	exactly_one_per_activation
+store	DB510	700	700	700	700	complete	exactly_one_per_activation
+native_profile	N400	700	700	700	700	complete	exactly_one_per_activation
+native_profile	N410	700	700	700	700	complete	exactly_one_per_activation

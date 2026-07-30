@@ -1,0 +1,4 @@
+source_role	source_path	bytes	sha256	matching_direct_event_rows
+controller	<private-worktree-root>/experiments/collections/361_c3-asyncs-e3-v2-seven-size-single-batch/recovery/openwhisk/capture/controller.filtered.log	667800	28cad7c8fd60a10aa546c5289847dcefe56dd2ffca2ed8afd1fb74ac858f5604	1400
+scheduler	<private-worktree-root>/experiments/collections/361_c3-asyncs-e3-v2-seven-size-single-batch/recovery/openwhisk/capture/scheduler.filtered.log	1103368	98bb125c01b8d2e1122fdf69340ea43be4e110dc5dcaf1e3390765fcbbd072c1	2099
+invoker	<private-worktree-root>/experiments/collections/361_c3-asyncs-e3-v2-seven-size-single-batch/recovery/openwhisk/capture/invokers.filtered.log	1522271	84efe6e52f2502cb216fb9ba02d4946bd00c1a4aaadc003f73504569c5887832	1400
