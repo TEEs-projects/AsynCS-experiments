@@ -1,7 +1,7 @@
 # AsynCS experiment data
 
-This is a private release candidate, not a public release. The AsynCS project
-license remains undecided. See [AsynCS](https://github.com/TEEs-projects/AsynCS)
+The AsynCS project license remains undecided.
+See [AsynCS](https://github.com/TEEs-projects/AsynCS)
 for the main project entry, source, workloads, build instructions, and pinned
 OpenWhisk/WAMR component repositories. This data repository is
 [AsynCS-experiments](https://github.com/TEEs-projects/AsynCS-experiments).
